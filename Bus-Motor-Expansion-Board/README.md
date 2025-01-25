@@ -9,16 +9,16 @@
 ![01ActualSummary2](image/01ActualSummary2.JPG)
 ![02BusDCMotorDriveBoard](image/02BusDCMotorDriveBoard.png)
 [总线直流电机扩展板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board)设计用于通过I2C接口控制最多四个直流电机，具有以下主要特点：
-- 小尺寸设计：可以与XIAO系列主控板直接连接，也可以作为独立模块使用。
-- I2C接口：提供I2C总线接口进行堆叠式级联，最多支持16个电机驱动扩展板，且提供4个地址位可供选择。
-- PWM输出引脚：PWM扩展芯片的输出引脚连接有保护电阻，同时使用的电机驱动芯片自带过流和过热保护功能。
-- 按键控制芯片使能/失能：PWM扩展芯片的使能引脚通过按键引出，使用时可通过按键失能芯片。
-- 电机驱动芯片可更换：根据需要，可将RZ7899芯片替换为TMI8260、AM2837或SS6285L芯片。
-- 电源指示灯：板载电源指示灯显示电机供电状态和PWM扩展芯片供电状态。
-- 多种电源输入方式：支持接线端子和Type-C接口供电，具有防反接设计。
-- 支持6V至18V供电的电机：整个扩展板最大电流为5A，若只使用两个电机通道，单通道峰值电流支持最大4A。
-- 高频低阻电解电容供电：使用四颗220μF高频低阻电解电容或固态电解电容进行供电，固态电解电容相比铝电解电容具有更低的ESR、较高的工作频率和更长的使用寿命。
-- 散热设计：扩展板背面的VCC区域采用开窗设计，通过焊锡增大散热效果。
+- **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用。
+- **I2C接口**：提供I2C总线接口进行堆叠式级联，最多支持16个电机驱动扩展板，且提供4个地址位可供选择。
+- **PWM输出引脚**：PWM扩展芯片的输出引脚连接有保护电阻，同时使用的电机驱动芯片自带过流和过热保护功能。
+- **按键控制芯片使能/失能**：PWM扩展芯片的使能引脚通过按键引出，使用时可通过按键失能芯片。
+- **电机驱动芯片可更换**：根据需要，可将RZ7899芯片替换为TMI8260、AM2837或SS6285L芯片。
+- **电源指示灯**：板载电源指示灯显示电机供电状态和PWM扩展芯片供电状态。
+- **多种电源输入方式**：支持接线端子和Type-C接口供电，具有防反接设计。
+- **支持6V至18V供电的电机**：整个扩展板最大电流为5A，若只使用两个电机通道，单通道峰值电流支持最大4A。
+- **高频低阻电解电容供电**：使用四颗220μF高频低阻电解电容或固态电解电容进行供电，固态电解电容相比铝电解电容具有更低的ESR、较高的工作频率和更长的使用寿命。
+- **散热设计**：扩展板背面的VCC区域采用开窗设计，通过焊锡增大散热效果。
 该扩展板提供了优越的电机保护和电源管理功能，适用于各种电机控制应用，我们提供了MicroPython和Arduino例程。
 ![03Real1](image/03Real1.JPG)
 ![04Real2](image/04Real2.JPG)
@@ -121,16 +121,16 @@ I2C总线外置主控电机控制类型的基本原理为：主控板通过I2C�
 ![01ActualSummary2](image/01ActualSummary2.JPG)
 ![02BusDCMotorDriveBoard](image/02BusDCMotorDriveBoard.png)
 [Bus DC Motor Expansion Board](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board) is designed to control up to four DC motors via the I2C interface, with the following key features:
-- Compact design: It can connect directly to the XIAO series main control board or be used as an independent module.
-- I2C Interface: It provides I2C bus interface for stacked cascading, supporting up to 16 motor driver expansion boards, with 4 address bits available for selection.
-- PWM output pins: The PWM expansion chip’s output pins are connected with protection resistors, and the motor driver chip used has built-in overcurrent and overheat protection.
-- Key-controlled chip enable/disable: The PWM expansion chip's enable pin is led out via a key, which allows disabling the chip via the button when not in use.
-- Replaceable motor driver chip: Depending on the requirements, the RZ7899 chip can be replaced with TMI8260, AM2837, or SS6285L chips.
-- Power indicator: Onboard power indicator shows the motor power supply status and PWM expansion chip power supply status.
-- Multiple power input methods: Supports power supply via terminal blocks or Type-C interface, with reverse polarity protection design.
-- Supports motors with 6V to 18V power supply: The entire expansion board can handle up to 5A of current, with each motor channel supporting a peak current of 4A if only two motor channels are used.
-- High-frequency, low-ESR electrolytic capacitors for power supply: Four 220μF high-frequency low-ESR electrolytic or solid-state electrolytic capacitors are used for power supply. Solid-state electrolytic capacitors offer lower ESR, higher operational frequency, and longer service life compared to aluminum electrolytic capacitors.
-- Heat dissipation design: The VCC area on the back of the expansion board features a window design to enhance heat dissipation through soldering.
+- **Compact design**: It can connect directly to the XIAO series main control board or be used as an independent module.
+- **I2C Interface**: It provides I2C bus interface for stacked cascading, supporting up to 16 motor driver expansion boards, with 4 address bits available for selection.
+- **PWM output pins**: The PWM expansion chip’s output pins are connected with protection resistors, and the motor driver chip used has built-in overcurrent and overheat protection.
+- **Key-controlled chip enable/disable**: The PWM expansion chip's enable pin is led out via a key, which allows disabling the chip via the button when not in use.
+- **Replaceable motor driver chip**: Depending on the requirements, the RZ7899 chip can be replaced with TMI8260, AM2837, or SS6285L chips.
+- **Power indicator**: Onboard power indicator shows the motor power supply status and PWM expansion chip power supply status.
+- **Multiple power input methods**: Supports power supply via terminal blocks or Type-C interface, with reverse polarity protection design.
+- **Supports motors with 6V to 18V power supply**: The entire expansion board can handle up to 5A of current, with each motor channel supporting a peak current of 4A if only two motor channels are used.
+- **High-frequency, low-ESR electrolytic capacitors for power supply**: Four 220μF high-frequency low-ESR electrolytic or solid-state electrolytic capacitors are used for power supply. Solid-state electrolytic capacitors offer lower ESR, higher operational frequency, and longer service life compared to aluminum electrolytic capacitors.
+- **Heat dissipation design**: The VCC area on the back of the expansion board features a window design to enhance heat dissipation through soldering.
 
 The expansion board provides excellent motor protection and power management functions, suitable for various motor control applications. We offer both MicroPython and Arduino example code.
 ![03Real1](image/03Real1.JPG)

@@ -70,7 +70,7 @@
       <updated>1737352548461</updated>
       <workItem from="1737352550242" duration="80000" />
       <workItem from="1737701469725" duration="9763000" />
-      <workItem from="1737813208210" duration="4576000" />
+      <workItem from="1737813208210" duration="5342000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737819541887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容">
+      <option name="closed" value="true" />
+      <created>1737820040199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737820040199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
