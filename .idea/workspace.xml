@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容">
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/00ActualSummary.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/00ActualSummary.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/01ActualSummary2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/01ActualSummary2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/03Real1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/03Real1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/04Real2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/04Real2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/05Real3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/05Real3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/06Real4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/06Real4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/07Real5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/07Real5.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/08Real6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/08Real6.JPG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +58,7 @@
       <updated>1737352548461</updated>
       <workItem from="1737352550242" duration="80000" />
       <workItem from="1737701469725" duration="9763000" />
-      <workItem from="1737813208210" duration="2372000" />
+      <workItem from="1737813208210" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />

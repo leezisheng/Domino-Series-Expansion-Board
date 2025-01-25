@@ -18,7 +18,10 @@
 
 # 类别
 ## 总线直流电机扩展板
-![Bus-Motor-Expansion-Board](\Bus-Motor-Expansion-Board\image\BusDCMotorDriveBoard.png)
+![Bus-Motor-Expansion-Board](.\Bus-Motor-Expansion-Board\image\02BusDCMotorDriveBoard.png)
+![00ActualSummary.jpg](.\Bus-Motor-Expansion-Board\image\00ActualSummary.jpg)
+![01ActualSummary2.jpg](.\Bus-Motor-Expansion-Board\image\01ActualSummary2.jpg)
+
 [总线直流电机扩展板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board)设计用于通过I2C接口控制最多四个直流电机，具有以下主要特点：
 - 小尺寸设计：可以与XIAO系列主控板直接连接，也可以作为独立模块使用。
 - I2C接口：提供I2C总线接口进行堆叠式级联，最多支持16个电机驱动扩展板，且提供4个地址位可供选择。
@@ -60,7 +63,9 @@ Currently supported main control boards include:
 
 # Categories
 ## Bus DC Motor Expansion Board
-![Bus-Motor-Expansion-Board](\Bus-Motor-Expansion-Board\image\BusDCMotorDriveBoard.png)
+![Bus-Motor-Expansion-Board](.\Bus-Motor-Expansion-Board\image\02BusDCMotorDriveBoard.png)
+![00ActualSummary.jpg](.\Bus-Motor-Expansion-Board\image\00ActualSummary.jpg)
+![01ActualSummary2.jpg](.\Bus-Motor-Expansion-Board\image\01ActualSummary2.jpg)
 [Bus DC Motor Expansion Board](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board) is designed to control up to four DC motors via the I2C interface, with the following main features:
 - Compact Design: Can be directly connected to the XIAO series main control board or used as a standalone module.
 - I2C Interface: Provides I2C bus interface for stacking, supporting up to 16 motor driver expansion boards, with 4 selectable address bits.
