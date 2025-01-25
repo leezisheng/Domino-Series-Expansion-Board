@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotChatHistory">
+    <option name="conversations">
+      <list>
+        <Conversation>
+          <option name="createTime" value="1737806434370" />
+          <option name="id" value="01949d55d042772694830d1704080777" />
+          <option name="title" value="新对话 2025年1月25日 20:00:34" />
+          <option name="updateTime" value="1737806434370" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1737806419159" />
+          <option name="id" value="01949d5594d67309a156f26492485b15" />
+          <option name="title" value="新对话 2025年1月25日 20:00:19" />
+          <option name="updateTime" value="1737806419159" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1737690182114" />
+          <option name="id" value="01949667f1e27688984917a1473ed20d" />
+          <option name="title" value="新对话 2025年1月24日 11:43:02" />
+          <option name="updateTime" value="1737690182114" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1737688745198" />
+          <option name="id" value="0194965204ee745eb50cad463d4fa868" />
+          <option name="title" value="新对话 2025年1月24日 11:19:05" />
+          <option name="updateTime" value="1737688745198" />
+        </Conversation>
+      </list>
+    </option>
+  </component>
+</project>

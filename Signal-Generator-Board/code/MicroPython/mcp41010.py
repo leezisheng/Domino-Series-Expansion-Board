@@ -4,7 +4,7 @@
 # @Author  : 李清水            
 # @File    : mcp41010.py       
 # @Description : MCP41010数字电位器芯片的驱动程序
-# 代码参考：https://github.com/glennklockwood/raspberrypi/blob/master/spi/mcp41010.py
+# 这部分代码由 leeqingshui 开发，采用 CC BY-NC 4.0 协议。
 
 # ======================================== 导入相关模块 =========================================
 

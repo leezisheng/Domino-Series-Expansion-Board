@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(初始化文件夹): 暂无&#10;&#10;暂无" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(初始化文件夹): 暂无&#10;&#10;暂无">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/Bus-Motor-Expansion-Board.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/runConfigurations/Flash_MicroPython.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/BusDCMotorDriveBoard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/FreakStudio_Contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/BusStepMotor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/MicroPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/MicroPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/bus_dc_motor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/bus_dc_motor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/bus_step_motor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/pca9685.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/pca9685.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/BusDCmotor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/BusDCmotor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/BusMotorDrive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/image/BusStepMotor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/ads1115.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/ads1115.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/dac_waveformgenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/dac_waveformgenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/mcp4725.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/mcp4725.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/ad9833.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/ad9833.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/mcp41010.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/mcp41010.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +51,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rsf8rQqa2D8JvleCheOPp87edx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/公司相关/相关产品/XIAO系列扩展板/Domino-Series-Expansion-Board/Bus-Motor-Expansion-Board/image/BusDCMotorDriveBoard.png",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.language",
     "vue.rearranger.settings.migration": "true"
@@ -43,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737352548461</updated>
       <workItem from="1737352550242" duration="80000" />
+      <workItem from="1737701469725" duration="9763000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -59,6 +110,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat(初始化文件夹): 暂无&#10;&#10;暂无" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(初始化文件夹): 暂无&#10;&#10;暂无" />
   </component>

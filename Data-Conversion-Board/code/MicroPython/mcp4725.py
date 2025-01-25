@@ -4,6 +4,8 @@
 # @Author  : 李清水            
 # @File    : mcp4725.py       
 # @Description : 12位DAC芯片mcp4725驱动模块
+# 参考代码：https://github.com/wayoda/micropython-mcp4725/blob/master/mcp4725.py
+# 这部分代码由 wayoda 开发，采用 Unlicense 协议发布。
 
 # ======================================== 导入相关模块 =========================================
 

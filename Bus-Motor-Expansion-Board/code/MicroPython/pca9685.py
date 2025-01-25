@@ -4,6 +4,8 @@
 # @Author  : 李清水            
 # @File    : pca9685.py       
 # @Description : PCA9685 16路PWM驱动芯片的驱动模块
+# 参考代码：https://github.com/adafruit/micropython-adafruit-pca9685/blob/master/pca9685.py
+# 本代码部分原本由 adafruit 发布，使用 MIT 许可证
 
 # ======================================== 导入相关模块 =========================================
 

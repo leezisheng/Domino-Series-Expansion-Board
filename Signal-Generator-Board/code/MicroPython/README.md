@@ -8,7 +8,7 @@
 通过使用 `MCP41010` 数字电位器和 `AD9833` 波形发生器芯片，用户可以方便地调节输出信号的幅度和频率。
 该模块适用于各种需要高精度、可调信号的实验和应用场景。
 
-该软件必须在提供的信号发生扩展板（由FreakStudio开发设计）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
+该软件必须在提供的信号发生扩展板（由FreakStudio开发设计的多米诺系列扩展板）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
 - **商品链接**：[信号发生扩展板购买链接]
 - **硬件开源链接**：[硬件开源资料链接]
 
@@ -33,7 +33,6 @@ AD9833 类方法如下所示：
 - `set_frequency(self, reg: int, freq: int) -> None`：设置AD9833的频率寄存器，控制输出波形的频率。
 - `set_phase(self, reg: int, phase: int) -> None`：设置AD9833的相位寄存器，控制输出波形的相位。
 - `reset(self) -> None`：复位AD9833，重新初始化所有寄存器和设置。
-
 
 ![AD9833](../../image/AD9833.png)
 
@@ -83,11 +82,18 @@ AD9833和MCP41010类都通过SPI接口与主控芯片进行通信，实现了对
 - 如有任何问题或需要帮助，请通过 [10696531183@qq.com](mailto:10696531183@qq.com) 联系开发者。
   ![FreakStudio_Contact](../../../image/FreakStudio_Contact.png)
 
+## 许可协议
+本项目中的部分代码由以下开发者提供，并且使用相应的开源协议：
+
+* **mcp41010.py**：该部分代码由 **leeqingshui** 开发，采用 **[知识共享署名-非商业性使用 4.0 国际版 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** 许可协议。
+* **ad9833.py**：该部分代码由 [owainm713](https://github.com/owainm713) 开发，采用 [GNU 通用公共许可证 v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0) 协议发布。[AD9833 GitHub 仓库](https://github.com/owainm713/AD9833-MicroPython-Module/blob/main/AD9833example.py#L54)。
+
+
 # Signal-Generator-Expansion-Board-(FreakStudio-Domino-Series)-Example-Program-MicroPython-Version
 
 This example program is designed for a signal generator module based on Digital Signal Synthesis (DDS) technology. It provides adjustable frequency, amplitude, and waveform type output signals. By using the MCP41010 digital potentiometer and AD9833 waveform generator chip, users can easily adjust the amplitude and frequency of the output signal. This module is suitable for various experimental and application scenarios requiring high precision and adjustable signals.
 
-The software must be run on the provided signal generator expansion board (designed by FreakStudio) to ensure proper operation. Please refer to the hardware open-source links and product links for more detailed information.
+The software must be run on the provided signal generator expansion board (Domino Series designed by FreakStudio) to ensure proper operation. Please refer to the hardware open-source links and product links for more detailed information.
 
 ## **Main Features**
 
@@ -160,3 +166,10 @@ Both the AD9833 and MCP41010 classes communicate with the main controller via SP
 ## Contact the Developer
 - For any inquiries or assistance, feel free to contact the developer at [10696531183@qq.com](mailto:10696531183@qq.com).
   ![FreakStudio_Contact](../../../image/FreakStudio_Contact.png)
+
+## License
+
+Some parts of this project are provided by the following developers and are released under the respective open-source licenses:
+
+* **mcp41010.py**: This part of the code was developed by **leeqingshui** and is released under the **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.
+* **ad9833.py**: This part of the code was developed by [owainm713](https://github.com/owainm713) and is released under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0). [AD9833 GitHub Repository](https://github.com/owainm713/AD9833-MicroPython-Module/blob/main/AD9833example.py#L54).

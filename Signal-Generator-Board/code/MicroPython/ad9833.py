@@ -5,6 +5,7 @@
 # @File    : ad9833.py       
 # @Description : DDS信号芯片AD9833驱动模块
 # 代码参考：https://github.com/owainm713/AD9833-MicroPython-Module/blob/main/AD9833example.py#L54
+# 这部分代码由 owainm713 开发，采用 GNU General Public License v3.0 License.
 
 # ======================================== 导入相关模块 =========================================
 

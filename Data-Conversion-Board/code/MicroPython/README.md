@@ -8,7 +8,7 @@
 输入模式（单端输入/差分输入）和转换模式（持续转换或触发转换）；也可以使用板载MCP4725数模转换芯片输出模拟电压值，或在不需要使用DAC时启用电源关断模式降低功耗。
 除此之外，我们还提供了一个WaveformGenerator自定义DAC波形发生器类来实现使用DAC芯片生成频率在10Hz内的三角波、矩形波、正弦波，并且可以设置信号幅度、直流偏移或信号频率。
 
-该软件必须在提供的数据转换板（由FreakStudio开发设计）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
+该软件必须在提供的数据转换板（由FreakStudio开发设计的多米诺系列）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
 - **商品链接**：[数据转换板购买链接]
 - **硬件开源链接**：[硬件开源资料链接]
 
@@ -158,11 +158,18 @@ from dac_waveformgenerator import WaveformGenerator
 - 如有任何问题或需要帮助，请通过 [10696531183@qq.com](mailto:10696531183@qq.com) 联系开发者。
 ![FreakStudio_Contact](../../../image/FreakStudio_Contact.png)
 
+## 许可协议
+本项目中的部分代码由以下开发者提供，并且使用相应的开源协议：
+* **mcp4725.py** ：该部分代码由 [wayoda](https://github.com/wayoda) 开发，采用 [Unlicense](https://unlicense.org/) 协议发布，[mcp4725 GitHub 仓库](https://github.com/wayoda/micropython-mcp4725/blob/master/mcp4725.py)。
+* **ads1115.py** ：该部分代码由 [robert-hh](https://github.com/robert-hh) 开发，采用 [MIT License](https://opensource.org/licenses/MIT) 协议发布，[ads1x15 GitHub 仓库](https://github.com/robert-hh/ads1x15)。
+* 本项目扩展部分`dac_waveformgenerator.py`采用 **[知识共享署名-非商业性使用 4.0 国际版 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** 许可协议。
+
+
 # Data-Conversion-Expansion-Board-(FreakStudio-Domino-Series)-Example-Program-MicroPython-Version
 
 This example program demonstrates how to use MicroPython to control the Data Conversion Board (FreakStudio). Through the I2C communication interface of the main controller chip, users can use the onboard ADS1115 analog-to-digital converter (ADC) chip to achieve four-channel signal input. Users can configure the sampling rate, input mode (single-ended input/differential input), and conversion mode (continuous conversion or triggered conversion). Additionally, the onboard MCP4725 digital-to-analog converter (DAC) chip can be used to output analog voltage values, or the power-down mode can be enabled to reduce power consumption when the DAC is not needed. Furthermore, we provide a custom WaveformGenerator DAC waveform generator class to generate triangle, square, and sine waves with frequencies within 10Hz using the DAC chip. The amplitude, DC offset, and signal frequency can be set.
 
-This software must run on the provided data conversion board (designed and developed by FreakStudio) to ensure its proper functioning. Please refer to the hardware open-source link and product link for more details.
+This software must run on the provided data conversion board (Domino Series designed and developed by FreakStudio) to ensure its proper functioning. Please refer to the hardware open-source link and product link for more details.
 - **Product Link**: [Data Conversion Board Purchase Link]
 - **Hardware Open-Source Link**: [Hardware Open Source Documentation Link]
 
@@ -310,3 +317,10 @@ making it suitable for a variety of signal processing tasks.
 ## Contact the Developer
 - For any inquiries or assistance, feel free to contact the developer at [10696531183@qq.com](mailto:10696531183@qq.com).
 ![FreakStudio_Contact](../../../image/FreakStudio_Contact.png)
+
+## License Agreement
+Some parts of this project are provided by the following developers and are released under the respective open-source licenses:
+
+* **mcp4725.py**: This part of the code was developed by [wayoda](https://github.com/wayoda) and is released under the [Unlicense](https://unlicense.org/) license. [mcp4725 GitHub Repository](https://github.com/wayoda/micropython-mcp4725/blob/master/mcp4725.py).
+* **ads1115.py**: This part of the code was developed by [robert-hh](https://github.com/robert-hh) and is released under the [MIT License](https://opensource.org/licenses/MIT). [ads1x15 GitHub Repository](https://github.com/robert-hh/ads1x15).
+* The extended part of this project, `dac_waveformgenerator.py`, is released under the **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** license.
