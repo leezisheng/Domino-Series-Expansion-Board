@@ -5,9 +5,9 @@
 
 # 总线直流电机扩展板
 ## 1.总体介绍
-![00ActualSummary](.\image\00ActualSummary.JPG)
-![01ActualSummary2](.\image\01ActualSummary2.JPG)
-![02BusDCMotorDriveBoard](.\image\02BusDCMotorDriveBoard.png)
+![00ActualSummary](image/00ActualSummary.JPG)
+![01ActualSummary2](image/01ActualSummary2.JPG)
+![02BusDCMotorDriveBoard](image/02BusDCMotorDriveBoard.png)
 [总线直流电机扩展板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board)设计用于通过I2C接口控制最多四个直流电机，具有以下主要特点：
 - 小尺寸设计：可以与XIAO系列主控板直接连接，也可以作为独立模块使用。
 - I2C接口：提供I2C总线接口进行堆叠式级联，最多支持16个电机驱动扩展板，且提供4个地址位可供选择。
