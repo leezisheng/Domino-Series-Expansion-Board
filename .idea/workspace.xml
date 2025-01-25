@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +56,7 @@
       <updated>1737352548461</updated>
       <workItem from="1737352550242" duration="80000" />
       <workItem from="1737701469725" duration="9763000" />
-      <workItem from="1737813208210" duration="3548000" />
+      <workItem from="1737813208210" duration="3954000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -76,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737813250853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容">
+      <option name="closed" value="true" />
+      <created>1737819065373</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737819065373</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
