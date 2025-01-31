@@ -1,4 +1,4 @@
-# Python env   : MicroPython v1.23.0
+# Python env   : MicroPython v1.23.0 on Raspberry Pi Pico
 # -*- coding: utf-8 -*-        
 # @Time    : 2025/1/19 上午10:57   
 # @Author  : 李清水            

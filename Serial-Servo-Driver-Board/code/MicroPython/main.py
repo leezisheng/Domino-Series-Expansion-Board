@@ -1,4 +1,4 @@
-# Python env   : MicroPython v1.23.0
+# Python env   : MicroPython v1.23.0 on Raspberry Pi Pico
 # -*- coding: utf-8 -*-        
 # @Time    : 2025/1/3 下午11:00   
 # @Author  : 李清水            
@@ -53,10 +53,10 @@ time.sleep(3)
 print("FreakStudio : Using UART to control LX-1501 servo")
 
 # 创建串口对象，设置波特率为115200
-uart_servo = UART(1, 115200)
+uart_servo = UART(0, 115200)
 # 初始化uart对象，数据位为8，无校验位，停止位为1
 # 设置串口超时时间为5ms
-uart_servo.init(bits=8, parity=None, stop=1, tx=8, rx=9, timeout=5)
+uart_servo.init(bits=8, parity=None, stop=1, tx=0, rx=1, timeout=5)
 
 # 创建串口舵机对象
 servo = SerialServo(uart_servo)
@@ -66,6 +66,9 @@ led = Pin(25, Pin.OUT, Pin.PULL_DOWN)
 
 # ========================================  主程序  ===========================================
 
+# 立即移动舵机到指定位置
+servo.move_servo_immediate(servo_id=1, angle=90.0, time_ms=1000)
 
-
-
+# 获取舵机移动到指定位置后的角度和移动时间
+angle, time = servo.get_servo_move_immediate(servo_id=1)
+print(f"Servo ID: 1, Angle: {angle}, Time: {time}")

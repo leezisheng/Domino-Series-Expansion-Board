@@ -41,7 +41,7 @@ class AD9833:
         phase1 (int): 相位寄存器1的值，用于控制信号相位。
 
     Methods:
-        __init__(sdo: int, clk: int, cs: int, fmclk: int = 25):
+        __init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25, spi_id: int = 0):
             初始化AD9833实例并设置SPI通信对象和主时钟频率。
 
         set_control_reg(**kwargs) -> None:
@@ -79,7 +79,7 @@ class AD9833:
         phase1 (int): The value of phase register 1, used to control the signal's phase.
 
     Methods:
-        __init__(sdo: int, clk: int, cs: int, fmclk: int = 25):
+        __init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25, spi_id: int = 0):
             Initializes the AD9833 instance and sets up the SPI communication object and the main clock frequency.
 
         set_control_reg(**kwargs) -> None:
@@ -98,7 +98,7 @@ class AD9833:
             Resets the AD9833, reinitializing all registers and settings.
     """
 
-    def __init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25) -> None:
+    def __init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25, spi_id: int = 0) -> None:
         """
         初始化AD9833实例。
 
@@ -109,12 +109,13 @@ class AD9833:
             clk (int): CLK引脚对应编号。
             cs (int): CS引脚对应编号。
             fmclk (int, optional): 主时钟频率，实际工作频率为 fmclk MHz，默认为25 MHz。
+            spi_id (int, optional): SPI外设编号，默认为0，表示使用第一个SPI外设。
 
         Returns:
             None: 此方法没有返回值。
 
         Raises:
-            ValueError: 如果传入的sdo、clk或cs参数不是有效的数字引脚编号，则抛出该异常。
+            ValueError: 如果传入的sdo、clk、cs参数不是有效的数字引脚编号或spi外设编号无效，则抛出该异常。
 
         ================================================
 
@@ -127,18 +128,23 @@ class AD9833:
             clk (int): The pin index corresponding to the CLK (clock) pin.
             cs (int): The pin index corresponding to the CS (chip select) pin.
             fmclk (int, optional): The main clock frequency in MHz, the actual operating frequency is fmclk MHz, default is 25 MHz.
+            spi_id (int, optional): The SPI peripheral ID, default is 0, which indicates the use of the first SPI peripheral.
 
         Returns:
             None: This method does not return any value.
 
         Raises:
-            ValueError: If the passed sdo, clk, or cs parameters are not valid pin numbers, this exception will be raised.
+            ValueError: if the sdo, clk, or cs parameters are not valid digital pin indices or the spi_id is invalid, this exception will be raised.
 
         """
 
         # 如果输入的sdo、clk、cs参数不是数字引脚编号，则报错
         if not isinstance(sdo, int) or not isinstance(clk, int) or not isinstance(cs, int):
             raise ValueError("sdo、clk、cs must be int")
+
+        # 判断spi_id是否有效
+        if spi_id not in (0, 1):
+            raise ValueError("spi_id must be 0 or 1")
 
         # 设置时钟频率（默认为25 MHz）
         self.fmclk = fmclk * 10 ** 6
@@ -150,7 +156,7 @@ class AD9833:
         # 初始化片选引脚为高电平，表示没有开始通信
         self.cs.value(1)
         # 设置SPI通信参数
-        self.spi = machine.SPI(0, baudrate=4000000, polarity=1, phase=1, sck=self.clk, mosi=self.sdo)
+        self.spi = machine.SPI(spi_id, baudrate=1000000, polarity=0, phase=1, sck=self.clk, mosi=self.sdo)
         # 初始化控制寄存器，设置为复位状态，并且频率寄存器写模式为28位数据写入模式
         self.set_control_reg(B28=1, RESET=1)
 
@@ -200,10 +206,12 @@ class AD9833:
         # 将数据转换为字节数组
         data = bytearray(data)
 
+        # 手动将 SCLK 拉高
+        self.clk.value(1)
         # 将片选引脚拉低，开始通信
         self.cs.value(0)
         # 调整SPI速率
-        self.spi.init(baudrate=4000000)
+        self.spi.init(baudrate=1000000)
         # 通过SPI写入数据
         self.spi.write(data)
         # 将片选引脚拉高，结束通信

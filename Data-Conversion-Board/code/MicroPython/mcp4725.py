@@ -25,15 +25,15 @@ class MCP4725:
 
     Attributes:
         i2c (machine.I2C): 用于与MCP4725通信的I2C接口对象。
-        address (int): MCP4725的I2C地址，默认为0x62。
+        address (int): MCP4725的I2C地址，默认为0x60。
         _writeBuffer (bytearray): 存储要写入DAC的数据缓冲区。
 
     Class Variables:
-        BUS_ADDRESS (list): MCP4725可能的I2C地址，默认为[0x62, 0x63]。
+        BUS_ADDRESS (list): MCP4725可能的I2C地址，默认为[0x60, 0x61, 0x62, 0x63, 0x64, 0x65, 0x66, 0x67]。
         POWER_DOWN_MODE (dict): 电源关断模式映射字典，包含'Off', '1k', '100k', '500k'四种模式。
 
     Methods:
-        __init__(i2c: machine.I2C, address: int = 0x62):
+        __init__(i2c: machine.I2C, address: int = 0x60):
             初始化MCP4725实例并设置I2C通信对象和地址。
 
         write(value: int) -> bool:
@@ -54,15 +54,15 @@ class MCP4725:
 
     Attributes:
         i2c (machine.I2C): The I2C interface object used to communicate with the MCP4725 chip.
-        address (int): The I2C address of the MCP4725 chip, default is 0x62.
+        address (int): The I2C address of the MCP4725 chip, default is 0x60.
         _writeBuffer (bytearray): A buffer used to store data to be written to the DAC.
 
     Class Variables:
-        BUS_ADDRESS (list): List of possible I2C addresses for the MCP4725, 0x62 and 0x63.
+        BUS_ADDRESS (list): List of possible I2C addresses for the MCP4725, [0x60, 0x61, 0x62, 0x63, 0x64, 0x65, 0x66, 0x67].
         POWER_DOWN_MODE (dict): Dictionary mapping power-down mode names to their corresponding mode codes.
 
     Methods:
-        __init__(i2c: machine.I2C, address: int = 0x62):
+        __init__(i2c: machine.I2C, address: int = 0x60):
             Initializes the MCP4725 instance with an I2C interface and optional address.
 
         write(value: int) -> bool:
@@ -80,12 +80,12 @@ class MCP4725:
     """
 
     # 类变量
-    # 定义MCP4725的I2C地址，可以选择0x62或0x63
-    BUS_ADDRESS = [0x62, 0x63]
+    # 定义MCP4725的I2C地址，一般可以选择0x60或0x61
+    BUS_ADDRESS = [0x60, 0x61, 0x62, 0x63, 0x64, 0x65, 0x66, 0x67]
     # 定义MCP4725的电源关断模式，键值为模式名称，对应的值为模式编码
     POWER_DOWN_MODE = {'Off': 0, '1k': 1, '100k': 2, '500k': 3}
 
-    def __init__(self, i2c: I2C, address: int = 0x62) -> None:
+    def __init__(self, i2c: I2C, address: int = 0x60) -> None:
         """
         初始化MCP4725芯片。
 
@@ -109,7 +109,7 @@ class MCP4725:
 
         Args:
             i2c (I2C): The I2C object used to communicate with the MCP4725 chip.
-            address (int, optional): The I2C address of the MCP4725, default is 0x62.
+            address (int, optional): The I2C address of the MCP4725, default is 0x60.
 
         Returns:
             None: This method does not return any value.
