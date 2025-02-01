@@ -6,8 +6,8 @@
 # 信号发生扩展板
 ## 1.总体介绍
 ![00System](image/00System.png)
-![00Actual](image/00Actual.JPG)
-![00Actual2](image/00Actual2.JPG)
+![00Actual](image/00Actual.jpg)
+![00Actual2](image/00Actual2.jpg)
 [**信号发生扩展板**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board)是一种用于产生可调频率和幅度的不同波形的扩展板，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用；使用IPEX1接口作为信号输入和输出，尺寸小。
 - **SPI接口**：提供SPI总线接口进行通信，也可进行堆叠式放置。
@@ -16,10 +16,10 @@
 - **输出接口**：提供原始波形输出和6倍同相放大输出接口，并可根据需要连接，增强信号幅度。
 - **低通滤波和噪声抑制**：配备5阶低通滤波器，截止频率为5.43 MHz，有效减少高频噪声，平滑输出波形。
 - **稳定性与噪声过滤**：使用补偿电阻优化同相放大器性能，减少寄生效应，且运算放大器供电采用钽电容滤波，平滑电源噪声，确保高频稳定性。
-![01Actual](image/01Actual.JPG)
-![02Actual](image/02Actual.JPG)
-![03Actual2](image/03Actual2.JPG)
-![04Actual3](image/04Actual3.JPG)
+![01Actual](image/01Actual.jpg)
+![02Actual](image/02Actual.jpg)
+![03Actual2](image/03Actual2.jpg)
+![04Actual3](image/04Actual3.jpg)
 
 ## 2.接口说明
 ### 2.1 通信接口
@@ -53,7 +53,7 @@
 
 ## 4.提供代码和使用须知
 在使用烧录完程序后的主控板通过扩展板输入或输出信号前，务必确保示波器或其他信号调理模块和信号输出端子接线正确，供电无误：
-![01Actual](image/01Actual.JPG)
+![01Actual](image/01Actual.jpg)
 示例代码包括以下版本：
 - **MicroPython版本**：[**信号发生扩展板MicroPython示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/code/MicroPython)
 - **Arduino版本**：[**信号发生扩展板Arduino示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/code/Arduino)
@@ -66,8 +66,8 @@
 
 ## 1. Overview
 ![00System](image/00System.png)
-![00Actual](image/00Actual.JPG)
-![00Actual2](image/00Actual2.JPG)
+![00Actual](image/00Actual.jpg)
+![00Actual2](image/00Actual2.jpg)
 [**Signal Generator Expansion Board**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board) is an expansion board used to generate adjustable frequency and amplitude waveforms. It has the following key features:
 - **Compact Design**: Can be directly connected to the XIAO series main control board or used as an independent module; uses IPEX1 interface for signal input and output, compact size.
 - **SPI Interface**: Provides an SPI bus interface for communication and can be stacked.
@@ -76,10 +76,10 @@
 - **Output Interfaces**: Provides both raw waveform output and 6x in-phase amplified output interfaces, which can be connected as needed to enhance the signal amplitude.
 - **Low-pass Filtering and Noise Suppression**: Equipped with a 5th-order low-pass filter with a cutoff frequency of 5.43 MHz to effectively reduce high-frequency noise and smooth the output waveform.
 - **Stability and Noise Filtering**: Uses compensation resistors to optimize the in-phase amplifier performance, reducing parasitic effects, and the op-amp power supply uses tantalum capacitors to filter noise, ensuring high-frequency stability.
-![01Actual](image/01Actual.JPG)
-![02Actual](image/02Actual.JPG)
-![03Actual2](image/03Actual2.JPG)
-![04Actual3](image/04Actual3.JPG)
+![01Actual](image/01Actual.jpg)
+![02Actual](image/02Actual.jpg)
+![03Actual2](image/03Actual2.jpg)
+![04Actual3](image/04Actual3.jpg)
 
 ## 2. Interface Description
 ### 2.1 Communication Interface
@@ -113,7 +113,7 @@ At the signal amplification output, the DDS signal generator expansion board is 
 
 ## 4. Code and Usage Instructions
 Before inputting or outputting signals from the expansion board after programming, ensure that the oscilloscope or other signal conditioning modules are properly connected to the signal output terminals and that the power supply is correct:
-![01Actual](image/01Actual.JPG)
+![01Actual](image/01Actual.jpg)
 Sample code is available for the following versions:
 - **MicroPython Version**: [**Signal Generator Expansion Board MicroPython Example Program**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/code/MicroPython)
 - **Arduino Version**: [**Signal Generator Expansion Board Arduino Example Program**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/code/Arduino)
