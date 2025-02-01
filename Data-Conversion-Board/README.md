@@ -17,9 +17,9 @@
 - **信号输出缓冲隔离**：在信号输出端放置了电压跟随器，提高输出信号的驱动能力，同时隔离电路前后级。
 - **稳定供电**：在运放部分加入钽电容进行滤波，保证供电稳定。
 
-![03Real1](image/03Real1.jpg)
-![04Real2](image/04Real2.jpg)
-![05Real3](image/05Real3.jpg)
+![03Real1](image/03Real1.JPG)
+![04Real2](image/04Real2.JPG)
+![05Real3](image/05Real3.JPG)
 
 ## 2.接口说明
 ### 2.1 通信接口
@@ -53,7 +53,7 @@
 
 ## 4.提供代码和使用须知
 在使用烧录完程序后的主控板通过扩展板输入或输出信号前，务必确保示波器、信号发生器或其他信号调理模块和信号输入或输出端子接线正确，供电无误：
-![14ALL](image/14ALL.jpg)
+![14ALL](image/14ALL.JPG)
 示例代码包括以下版本：
 - **MicroPython版本**：[**数据转换板MicroPython示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/code/MicroPython)
 - **Arduino版本**：[**数据转换板Arduino示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/code/Arduino)
@@ -65,8 +65,8 @@
 # Data-Conversion-Board
 ## 1. Overview
 ![00summary](image/00summary.png)
-![01OverFlow](image/01OverFlow.jpg)
-![02OverFlow2](image/02OverFlow2.jpg)
+![01OverFlow](image/01OverFlow.JPG)
+![02OverFlow2](image/02OverFlow2.JPG)
 
 The data conversion board is an expansion module used for acquiring signal waveforms or outputting signals via I2C serial communication interface. The main features are as follows:
 - **Compact Design**: Can directly connect to the XIAO series main control board or be used as an independent module; uses an IPEX1 interface for signal input and output, which is compact in size.
@@ -76,9 +76,9 @@ The data conversion board is an expansion module used for acquiring signal wavef
 - **Signal Output Buffer Isolation**: A voltage follower is placed at the signal output to improve the driving capability of the output signal and isolate the front and rear stages of the circuit.
 - **Stable Power Supply**: Tantalum capacitors are used in the operational amplifier section for filtering, ensuring stable power supply.
 
-![03Real1](image/03Real1.jpg)
-![04Real2](image/04Real2.jpg)
-![05Real3](image/05Real3.jpg)
+![03Real1](image/03Real1.JPG)
+![04Real2](image/04Real2.JPG)
+![05Real3](image/05Real3.JPG)
 
 ## 2. Interface Description
 ### 2.1 Communication Interface
@@ -112,7 +112,7 @@ The chip address bits can be set by soldering short-circuit points on the back. 
 
 ## 4. Provided Code and Usage Instructions
 Before using the expansion board to input or output signals after programming, make sure that the oscilloscope, signal generator, or other signal conditioning modules are correctly connected to the signal input or output terminals, and that the power supply is correct:
-![14ALL](image/14ALL.jpg)
+![14ALL](image/14ALL.JPG)
 
 Example code includes the following versions:
 - **MicroPython Version**: [**Data Conversion Board MicroPython Example Program**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/code/MicroPython)
