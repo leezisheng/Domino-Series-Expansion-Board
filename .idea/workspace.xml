@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board): 修改完成串口舵机驱动板和数据转换板中注释内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;新建四个文件夹+仓库&#10;更新图片链接">
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +74,7 @@
       <workItem from="1738339714070" duration="88000" />
       <workItem from="1738391749614" duration="13000" />
       <workItem from="1738391855304" duration="7000" />
+      <workItem from="1738402552629" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -168,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738391757537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接">
+      <option name="closed" value="true" />
+      <created>1738402604148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738402604148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +183,7 @@
     <MESSAGE value="feat(初始化文件夹): 暂无&#10;&#10;暂无" />
     <MESSAGE value="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board): 修改完成串口舵机驱动板和数据转换板中注释内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;新建四个文件夹+仓库&#10;更新图片链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board): 修改完成串口舵机驱动板和数据转换板中注释内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;新建四个文件夹+仓库&#10;更新图片链接" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
   </component>
 </project>
