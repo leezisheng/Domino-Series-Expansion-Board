@@ -6,8 +6,8 @@
 # 数据转换扩展板
 ## 1.总体介绍
 ![00summary](image/00summary.png)
-![01OverFlow](image/01OverFlow.jpg)
-![02OverFlow2](image/02OverFlow2.jpg)
+![01OverFlow](image/01OverFlow.JPG)
+![02OverFlow2](image/02OverFlow2.JPG)
 
 数据转换板是一种用于通过串行通信I2C接口来采集信号波形或输出信号的扩展模块，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用；使用IPEX1接口作为信号输入和输出，尺寸小。
