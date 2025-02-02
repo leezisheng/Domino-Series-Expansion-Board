@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接">
-      <change afterPath="$PROJECT_DIR$/image/00_3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/01_3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/02_3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/03_3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/DDS.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Data.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Motor.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Multi_3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Multi_4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Multi_4_2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_10.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_6.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_7.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_8.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Real_9.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Servo.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +21,12 @@
     &quot;assignee&quot;: &quot;leezisheng&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:leezisheng/Domino-Series-Expansion-Board.git&quot;,
-    &quot;accountId&quot;: &quot;57c8c454-fae7-4fb6-a60a-57183753adc1&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/leezisheng/Domino-Series-Expansion-Board.git",
+    "accountId": "57c8c454-fae7-4fb6-a60a-57183753adc1"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -101,7 +78,7 @@
       <workItem from="1738391855304" duration="7000" />
       <workItem from="1738402552629" duration="54000" />
       <workItem from="1738403548867" duration="2155000" />
-      <workItem from="1738466308348" duration="2769000" />
+      <workItem from="1738466308348" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -199,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738402604148</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接">
+      <option name="closed" value="true" />
+      <created>1738469950494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738469950495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +196,7 @@
     <MESSAGE value="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Bus-Motor-Expansion-Board): 修改完成总线直流电机扩展板内容&#10;&#10;修改完成总线直流电机扩展板内容" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board): 修改完成串口舵机驱动板和数据转换板中注释内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;新建四个文件夹+仓库&#10;更新图片链接" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接" />
   </component>
 </project>

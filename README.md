@@ -47,8 +47,8 @@
 
 ## 总线舵机扩展板🤖
 ![02BusDCMotorDriveBoard](Serial-Servo-Driver-Board/image/00Overview.png)
-![00ActualSummary](Serial-Servo-Driver-Board/image/00System.JPG)
-![01ActualSummary2](Serial-Servo-Driver-Board/image/00ActualSystem.JPG)
+![00ActualSummary](Serial-Servo-Driver-Board/image/00System.jpg)
+![01ActualSummary2](Serial-Servo-Driver-Board/image/00ActualSystem.jpg)
 
 [**总线舵机扩展板**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board)是一种用于通过串行通信接口UART来控制多个舵机的扩展模块，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用。
@@ -79,8 +79,8 @@
 
 ## 信号发生扩展板🎶
 ![00System](Signal-Generator-Board/image/00System.png)
-![00Actual](Signal-Generator-Board/image/00Actual.JPG)
-![00Actual2](Signal-Generator-Board/image/00Actual2.JPG)
+![00Actual](Signal-Generator-Board/image/00Actual.jpg)
+![00Actual2](Signal-Generator-Board/image/00Actual2.jpg)
 
 信号发生扩展板是一种用于产生可调频率和幅度的不同波形的扩展板，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用；使用IPEX1接口作为信号输入和输出，尺寸小。
@@ -148,8 +148,8 @@ This expansion board offers excellent motor protection and power management func
 
 ## Bus Servo Expansion Board 🤖
 ![02BusDCMotorDriveBoard](Serial-Servo-Driver-Board/image/00Overview.png)
-![00ActualSummary](Serial-Servo-Driver-Board/image/00System.JPG)
-![01ActualSummary2](Serial-Servo-Driver-Board/image/00ActualSystem.JPG)
+![00ActualSummary](Serial-Servo-Driver-Board/image/00System.jpg)
+![01ActualSummary2](Serial-Servo-Driver-Board/image/00ActualSystem.jpg)
 
 [**Bus Servo Expansion Board**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board) is an expansion module used to control multiple servos via a UART serial communication interface, with the following main features:
 - **Compact Design**: Can be directly connected to XIAO series boards or used as a standalone module.
@@ -180,8 +180,8 @@ We provide both MicroPython and Arduino example code, with optimized reference c
 
 ## Signal Generator Expansion Board 🎶
 ![00System](Signal-Generator-Board/image/00System.png)
-![00Actual](Signal-Generator-Board/image/00Actual.JPG)
-![00Actual2](Signal-Generator-Board/image/00Actual2.JPG)
+![00Actual](Signal-Generator-Board/image/00Actual.jpg)
+![00Actual2](Signal-Generator-Board/image/00Actual2.jpg)
 
 The Signal Generator Expansion Board is used to generate adjustable frequency and amplitude waveforms, with the following main features:
 - **Compact Design**: Can be directly connected to XIAO series boards or used as a standalone module; uses an IPEX1 interface for signal input and output, compact in size.
