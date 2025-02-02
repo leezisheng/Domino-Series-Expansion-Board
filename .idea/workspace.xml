@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接">
+      <change afterPath="$PROJECT_DIR$/image/00_3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/01_3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/02_3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/03_3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/DDS.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Data.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Motor.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Multi_3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Multi_4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Multi_4_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_7.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Real_9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Servo.JPG" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +100,8 @@
       <workItem from="1738391749614" duration="13000" />
       <workItem from="1738391855304" duration="7000" />
       <workItem from="1738402552629" duration="54000" />
+      <workItem from="1738403548867" duration="2155000" />
+      <workItem from="1738466308348" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
