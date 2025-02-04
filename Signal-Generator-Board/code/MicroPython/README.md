@@ -27,7 +27,7 @@ AD9833 类用于控制 DDS（数字直接合成）信号芯片 AD9833，该类�
 
 AD9833 类方法如下所示：
 
-- `__init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25) -> None`：初始化AD9833实例并设置SPI通信对象和主时钟频率。
+- `__init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25, spi_id: int = 0) -> None`：初始化AD9833实例并设置SPI通信对象和主时钟频率。
 - `set_control_reg(self, **kwargs) -> None`：设置AD9833的控制寄存器，控制芯片的工作模式，如复位、波形类型等。
 - `write_data(self, data: int) -> None`：向AD9833写入指定的数据。
 - `set_frequency(self, reg: int, freq: int) -> None`：设置AD9833的频率寄存器，控制输出波形的频率。
@@ -64,7 +64,77 @@ MCP41010 类方法如下所示：
 ### 使用示例
 
 ```python
+# Python env   : MicroPython v1.23.0 on Raspberry Pi Pico
+# -*- coding: utf-8 -*-        
+# @Time    : 2025/1/19 上午10:57   
+# @Author  : 李清水            
+# @File    : main.py       
+# @Description : 幅度可调DDS信号发生模块测试程序
 
+# ======================================== 导入相关模块 =========================================
+
+# 导入DDS信号发生AD9833类
+from ad9833 import AD9833
+# 导入数字电位器MCP41010类
+from mcp41010 import MCP41010
+# 导入时间相关模块
+import time
+
+# ======================================== 全局变量 ============================================
+
+# ======================================== 功能函数 ============================================
+
+# ======================================== 自定义类 ============================================
+
+# ======================================== 初始化配置 ==========================================
+
+# 上电延时3s
+time.sleep(3)
+# 打印调试消息
+print("FreakStudio: Using AD9833 and MCP41010 to implement DDS signal generator")
+
+# # 创建AD9833芯片实例，使用SPI0外设：MOSI-GP3、SCLK-GP2、CS-GP27
+ad9833 = AD9833(sdo=3, clk=2, cs=27, fmclk=25, spi_id=0)
+# # 创建MCP41010芯片实例，使用SPI0外设：MOSI-GP3、SCLK-GP2、CS-GP26
+mcp41010 = MCP41010(clk_pin=2, cs_pin=26, mosi_pin=3, spi_id=0, max_value=255)
+
+# ========================================  主程序  ===========================================
+
+# 设置AD9833芯片的频率和相位
+# 设置频率寄存器0和相位寄存器0的数据
+ad9833.set_frequency(5000,0)
+ad9833.set_phase(0, 0, rads = False)
+# 设置频率寄存器1和相位寄存器1的数据
+ad9833.set_frequency(1300, 1)
+ad9833.set_phase(180, 1, rads = False)
+# 选择AD9833芯片的频率和相位
+ad9833.select_freq_phase(0, 0)
+
+# 设置MCP41010芯片的电位器值
+mcp41010.set_value(125)
+
+# 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为正弦波
+ad9833.select_freq_phase(0,0)
+ad9833.set_mode('SIN')
+
+# # 调节电位器值，观察DDS信号发生器的输出波形
+# mcp41010.set_value(20)
+#
+# # 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为方波
+# ad9833.select_freq_phase(0,0)
+# ad9833.set_mode('SQUARE')
+#
+# # 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为频率减半的方波
+# ad9833.select_freq_phase(0,0)
+# ad9833.set_mode('SQUARE/2')
+#
+# # 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为三角波
+# ad9833.select_freq_phase(0,0)
+# ad9833.set_mode('TRIANGLE')
+#
+# # 选择频率寄存器1和相位寄存器1，设置DDS信号发生器的输出模式为三角波
+# ad9833.select_freq_phase(1,1)
+# ad9833.set_mode('TRIANGLE')
 ```
 
 ## 注意事项
@@ -74,6 +144,7 @@ MCP41010 类方法如下所示：
 * **AD9833芯片复位**：如果系统出现异常，可以使用`reset()`方法复位AD9833芯片，重新初始化所有寄存器。
 * **通信速率**：AD9833芯片和MCP41010芯片通信速率不同，AD9833芯片使用 4 MHz，而MCP41010芯片使用 1 M Hz，但二者使用同一个通信总线，在`AD9833.write_data()`方法和`MCP41010._send_command`方法中，均有一条`self.spi.init()`语句用于动态调整SPI速率，如果需要修改通信速率，则需要修改两个方法中通信速率语句。
 * **省电模式**：当不需要频繁调整电位器时，可以通过`set_shutdown()`方法将电位器置于关断模式，以减少功耗。
+* **方波调幅**：由于AD9833的方波输出信号幅度为5V，因此电位器的调节值在0~33之间时，输出幅度是线性变化的；超过33以后，运算放大器进入饱和状态，输出幅度将不再变化。
 
 ## 结语
 AD9833和MCP41010类都通过SPI接口与主控芯片进行通信，实现了对波形发生器和数字电位器的精确控制，通过这些类的功能，可以灵活地设置波形参数、频率、相位以及电位器的电压值。在使用时，请遵循硬件连接和引脚设置的要求，确保系统稳定运行。
@@ -110,7 +181,7 @@ The AD9833 class is used to control the DDS (Direct Digital Synthesis) signal ch
 
 The AD9833 class methods are as follows:
 
-- `__init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25) -> None`: Initializes the AD9833 instance, sets up the SPI communication object, and configures the main clock frequency.
+- `__init__(self, sdo: int, clk: int, cs: int, fmclk: int = 25, spi_id: int = 0) -> None`: Initializes the AD9833 instance, sets up the SPI communication object, and configures the main clock frequency.
 - `set_control_reg(self, **kwargs) -> None`: Sets the AD9833 control register to configure the chip’s operating mode, such as reset and waveform type.
 - `write_data(self, data: int) -> None`: Writes the specified data to the AD9833.
 - `set_frequency(self, reg: int, freq: int) -> None`: Sets the frequency register of AD9833 to control the output waveform frequency.
@@ -149,7 +220,77 @@ Before running the example program, ensure that the `machine` and `time` modules
 ### Usage Example
 
 ```python
+# Python env   : MicroPython v1.23.0 on Raspberry Pi Pico
+# -*- coding: utf-8 -*-        
+# @Time    : 2025/1/19 上午10:57   
+# @Author  : 李清水            
+# @File    : main.py       
+# @Description : 幅度可调DDS信号发生模块测试程序
 
+# ======================================== 导入相关模块 =========================================
+
+# 导入DDS信号发生AD9833类
+from ad9833 import AD9833
+# 导入数字电位器MCP41010类
+from mcp41010 import MCP41010
+# 导入时间相关模块
+import time
+
+# ======================================== 全局变量 ============================================
+
+# ======================================== 功能函数 ============================================
+
+# ======================================== 自定义类 ============================================
+
+# ======================================== 初始化配置 ==========================================
+
+# 上电延时3s
+time.sleep(3)
+# 打印调试消息
+print("FreakStudio: Using AD9833 and MCP41010 to implement DDS signal generator")
+
+# # 创建AD9833芯片实例，使用SPI0外设：MOSI-GP3、SCLK-GP2、CS-GP27
+ad9833 = AD9833(sdo=3, clk=2, cs=27, fmclk=25, spi_id=0)
+# # 创建MCP41010芯片实例，使用SPI0外设：MOSI-GP3、SCLK-GP2、CS-GP26
+mcp41010 = MCP41010(clk_pin=2, cs_pin=26, mosi_pin=3, spi_id=0, max_value=255)
+
+# ========================================  主程序  ===========================================
+
+# 设置AD9833芯片的频率和相位
+# 设置频率寄存器0和相位寄存器0的数据
+ad9833.set_frequency(5000,0)
+ad9833.set_phase(0, 0, rads = False)
+# 设置频率寄存器1和相位寄存器1的数据
+ad9833.set_frequency(1300, 1)
+ad9833.set_phase(180, 1, rads = False)
+# 选择AD9833芯片的频率和相位
+ad9833.select_freq_phase(0, 0)
+
+# 设置MCP41010芯片的电位器值
+mcp41010.set_value(125)
+
+# 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为正弦波
+ad9833.select_freq_phase(0,0)
+ad9833.set_mode('SIN')
+
+# # 调节电位器值，观察DDS信号发生器的输出波形
+# mcp41010.set_value(20)
+#
+# # 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为方波
+# ad9833.select_freq_phase(0,0)
+# ad9833.set_mode('SQUARE')
+#
+# # 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为频率减半的方波
+# ad9833.select_freq_phase(0,0)
+# ad9833.set_mode('SQUARE/2')
+#
+# # 选择频率寄存器0和相位寄存器0，设置DDS信号发生器的输出模式为三角波
+# ad9833.select_freq_phase(0,0)
+# ad9833.set_mode('TRIANGLE')
+#
+# # 选择频率寄存器1和相位寄存器1，设置DDS信号发生器的输出模式为三角波
+# ad9833.select_freq_phase(1,1)
+# ad9833.set_mode('TRIANGLE')
 ```
 
 ## Notes
@@ -159,6 +300,7 @@ Before running the example program, ensure that the `machine` and `time` modules
 * **AD9833 Chip Reset**: If the system encounters errors, you can reset the AD9833 chip using the `reset()` method to reinitialize all registers.
 * **Communication Speed**: The AD9833 chip communicates at 4 MHz, while the MCP41010 chip communicates at 1 MHz. Both chips share the same communication bus. The `AD9833.write_data()` and `MCP41010._send_command` methods both include `self.spi.init()` statements to dynamically adjust the SPI speed. If you need to modify the communication speed, adjust the settings in both methods.
 * **Power Saving Mode**: When the potentiometer does not need frequent adjustments, you can use the `set_shutdown()` method to put the potentiometer in shutdown mode to reduce power consumption.
+* **Square Wave Amplitude Modulation**: Since the output amplitude of the AD9833 square wave signal is 5V, the potentiometer adjustment value varies linearly between 0 and 33. Beyond 33, the operational amplifier enters saturation, and the output amplitude will no longer change.
 
 ## Conclusion
 Both the AD9833 and MCP41010 classes communicate with the main controller via SPI to enable precise control over the waveform generator and digital potentiometer. Through these classes' functionality, you can flexibly adjust waveform parameters, frequency, phase, and the potentiometer’s output value. When using these methods, ensure proper hardware connections and pin configurations to maintain system stability.

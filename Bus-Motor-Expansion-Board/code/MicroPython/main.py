@@ -54,20 +54,21 @@ else:
 
 # 创建PCA9685实例，使用I2C0外设
 pca9685 = PCA9685(i2c, PCA9685_ADDR)
-# 创建BusDCMotor实例，使用PCA9685实例，电机数量为2
-motor = BusDCMotor(pca9685, 2)
+# 创建BusDCMotor实例，使用PCA9685实例，电机数量为4
+motor = BusDCMotor(pca9685, 4)
 
 # ========================================  主程序  ===========================================
 
-# 控制电机1正转，速度为4000，方向为0（前进）
-motor.set_motor_speed(1, 4000, 0)
-# 控制电机2反转，速度为3000，方向为0（前进）
-motor.set_motor_speed(2, 3000, 0)
-
-# 延时10s
-time.sleep(10)
-
-# 停止电机1
-motor.stop_motor(1)
-# 刹车电机2
-motor.break_motor(2)
+# # 控制电机1正转，速度为4000，方向为0（前进）
+# motor.set_motor_speed(1, 4000, 0)
+# # 控制电机2反转，速度为3000，方向为0（前进）
+# motor.set_motor_speed(2, 3000, 0)
+#
+# # 延时10s
+# time.sleep(10)
+#
+# # 停止电机1
+# motor.stop_motor(1)
+# # 刹车电机2
+# motor.break_motor(2)
+motor.set_motor_speed(4, 4000, 0)

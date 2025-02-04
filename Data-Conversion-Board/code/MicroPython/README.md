@@ -145,6 +145,7 @@ from dac_waveformgenerator import WaveformGenerator
 ### 使用示例
 
 在以下示例中，我们使用ADS1115外置ADC芯片定时采集模拟信号，并将采集的数据进行滑动均值滤波后发送到串口输出，同时使用MCP4725外置DAC芯片生成一个正弦波形（频率10Hz，幅度1.5V，直流偏移1.5V）。
+需要注意，使用时接入信号频率需要小于30Hz，并且需要使用USB转TTL模块连接主控板串口。
 
 ```python
 # Python env   : MicroPython v1.23.0 on Raspberry Pi Pico
@@ -342,6 +343,13 @@ while True:
     # 延时1s
     time.sleep(1)
 ```
+
+以下为输入频率为5Hz、幅度为3.0V时，串口绘图仪显示画面：
+![plot](../../image/plot.png)
+同时终端也有数据输出：
+![terminal](../../image/terminal.png)
+以下为输出正弦波显示画面：
+![sout](../../image/sout.png)
 
 ## 注意事项
 * **值设置**：在设置频率、幅度和偏移时，确保它们的值符合范围要求，否则可能导致设备无法正常工作。
@@ -500,6 +508,9 @@ from dac_waveformgenerator import WaveformGenerator
 
 ### Example Usage
 In the following example, we use the ADS1115 external ADC chip to periodically sample an analog signal, apply a moving average filter to the sampled data, and then send the filtered data to the serial port. At the same time, we use the MCP4725 external DAC chip to generate a sine waveform with a frequency of 10Hz, an amplitude of 1.5V, and a DC offset of 1.5V.
+
+Please note that the input signal frequency should be less than 30Hz, and a USB-to-TTL module is required to connect the main control board's serial port.
+
 ```python
 # Python env   : MicroPython v1.23.0 on Raspberry Pi Pico
 # -*- coding: utf-8 -*-        
@@ -696,6 +707,15 @@ while True:
     # 延时1s
     time.sleep(1)
 ```
+
+Below is the display from the serial plotter when the input frequency is 5Hz and the amplitude is 3.0V:
+![plot](../../image/plot.png)
+
+At the same time, data is also output in the terminal:
+![terminal](../../image/terminal.png)
+
+Below is the output sine wave display:
+![sout](../../image/sout.png)
 
 ## Notes
 

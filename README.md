@@ -70,7 +70,7 @@
 [**数据转换板**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board)是一种用于通过串行通信I2C接口来采集信号波形或输出信号的扩展模块，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用；使用IPEX1接口作为信号输入和输出，尺寸小。
 - **I2C接口**：提供I2C总线接口进行堆叠式级联，最多支持4个扩展板连接，支持高达16通道的信号输入和2通道的信号输出。
-- **信号输入与输出**：输入信号采样率高达860Hz，输出信号最高频率为50KHz，单个扩展板支持4通道信号输入和1通道信号输出。
+- **信号输入与输出**：输入信号采样率高达860Hz，输出信号最高频率为50KHz，单个扩展板支持4通道信号输入和1通道信号输出，，板载16位高精度ADC和12位DAC芯片，可应用于信号精确采集场景。
 - **信号输入滤波**：信号输入部分使用了小滤波电容，用于滤除高频噪声，确保输入信号更加平滑。
 - **信号输出缓冲隔离**：在信号输出端放置了电压跟随器，提高输出信号的驱动能力，同时隔离电路前后级。
 - **稳定供电**：在运放部分加入钽电容进行滤波，保证供电稳定。
@@ -171,7 +171,7 @@ We provide both MicroPython and Arduino example code and offer **the first open-
 [**Data Conversion Board**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board) is an expansion module used for signal waveform acquisition or output via the I2C interface, with the following main features:
 - **Compact Design**: Can be directly connected to XIAO series boards or used as a standalone module; uses an IPEX1 interface for signal input and output, compact in size.
 - **I2C Interface**: Provides an I2C bus interface for stacked connection, supporting up to 4 expansion boards with up to 16 input channels and 2 output channels.
-- **Signal Input and Output**: The signal input sampling rate is up to 860Hz, with an output frequency up to 50KHz. A single expansion board supports 4 input channels and 1 output channel.
+- **Signal Input and Output**: The signal input sampling rate is up to 860Hz, with an output frequency up to 50KHz. A single expansion board supports 4 input channels and 1 output channel.It features an onboard 16-bit high-precision ADC and a 12-bit DAC chip, making it suitable for precise signal acquisition applications.
 - **Signal Input Filtering**: The signal input part uses small filtering capacitors to remove high-frequency noise and ensure smoother input signals.
 - **Signal Output Buffer Isolation**: Voltage followers are used at the output end to improve the drive capability of the output signal and isolate the front and rear circuits.
 - **Stable Power Supply**: Tantalum capacitors are added to the op-amp section for filtering, ensuring stable power supply.

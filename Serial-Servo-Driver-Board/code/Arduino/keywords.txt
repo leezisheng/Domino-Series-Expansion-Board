@@ -1,0 +1,35 @@
+// ===============================================
+// 关键字类型分类说明：
+// KEYWORD1 - 类名、枚举名等
+// KEYWORD2 - 常量
+// KEYWORD3 - 方法、函数等
+// ===============================================
+
+// 类名 / Class names
+SerialServo	KEYWORD1
+
+// 常量定义 / Constants
+SERVO_MOVE_TIME_WRITE	KEYWORD2
+SERVO_MOVE_TIME_READ	KEYWORD2
+SERVO_MOVE_TIME_WAIT_WRITE	KEYWORD2
+SERVO_MOVE_TIME_WAIT_READ	KEYWORD2
+SERVO_MOVE_START	KEYWORD2
+SERVO_MOVE_STOP	KEYWORD2
+SERVO_ID_WRITE	KEYWORD2
+SERVO_ID_READ	KEYWORD2
+MODE_POSITION	KEYWORD2
+MODE_MOTOR	KEYWORD2
+ERROR_NO_ALARM	KEYWORD2
+ERROR_OVER_TEMP	KEYWORD2
+ERROR_ALL	KEYWORD2
+
+// 方法、函数 / Methods, functions
+begin	KEYWORD3
+calculate_checksum	KEYWORD3
+buildPacket	KEYWORD3
+send_command	KEYWORD3
+receive_command	KEYWORD3
+move_servo_immediate	KEYWORD3
+get_servo_move_immediate	KEYWORD3
+set_servo_led	KEYWORD3
+get_servo_led	KEYWORD3

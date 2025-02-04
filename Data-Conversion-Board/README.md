@@ -11,7 +11,7 @@
 
 数据转换板是一种用于通过串行通信I2C接口来采集信号波形或输出信号的扩展模块，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用；使用IPEX1接口作为信号输入和输出，尺寸小。
-- **I2C接口**：提供I2C总线接口进行堆叠式级联，最多支持4个扩展板连接，支持高达16通道的信号输入和2通道的信号输出。
+- **I2C接口**：提供I2C总线接口进行堆叠式级联，最多支持4个扩展板连接，支持高达16通道的信号输入和2通道的信号输出，板载16位高精度ADC和12位DAC芯片，可应用于信号精确采集场景。
 - **信号输入与输出**：输入信号采样率高达860Hz，输出信号最高频率为50KHz，单个扩展板支持4通道信号输入和1通道信号输出。
 - **信号输入滤波**：信号输入部分使用了小滤波电容，用于滤除高频噪声，确保输入信号更加平滑。
 - **信号输出缓冲隔离**：在信号输出端放置了电压跟随器，提高输出信号的驱动能力，同时隔离电路前后级。
@@ -71,7 +71,7 @@
 The data conversion board is an expansion module used for acquiring signal waveforms or outputting signals via I2C serial communication interface. The main features are as follows:
 - **Compact Design**: Can directly connect to the XIAO series main control board or be used as an independent module; uses an IPEX1 interface for signal input and output, which is compact in size.
 - **I2C Interface**: Provides an I2C bus interface for stacking, supporting up to 4 expansion boards, with a maximum of 16 signal input channels and 2 signal output channels.
-- **Signal Input and Output**: The input signal sampling rate is up to 860Hz, and the output signal maximum frequency is 50KHz. A single expansion board supports 4 signal input channels and 1 signal output channel.
+- **Signal Input and Output**: The input signal sampling rate is up to 860Hz, and the output signal maximum frequency is 50KHz. A single expansion board supports 4 signal input channels and 1 signal output channel.It features an onboard 16-bit high-precision ADC and a 12-bit DAC chip, making it suitable for precise signal acquisition applications.
 - **Signal Input Filtering**: The signal input section uses small filter capacitors to eliminate high-frequency noise, ensuring smoother input signals.
 - **Signal Output Buffer Isolation**: A voltage follower is placed at the signal output to improve the driving capability of the output signal and isolate the front and rear stages of the circuit.
 - **Stable Power Supply**: Tantalum capacitors are used in the operational amplifier section for filtering, ensuring stable power supply.

@@ -177,6 +177,10 @@ class AD9833:
 
         该方法用于将给定的整数数据写入AD9833的寄存器，以便更新其配置或控制波形。
 
+        该芯片的 SPI 通信模式采用 CPOL = 0, CPHA = 1，即 SPI Mode 1（模式 1），并且FSYNC（帧同步）不像标准 SPI 片选（CS）那样一直保持低电平，而是
+        在每帧数据传输前短暂拉低，SCLK 只有在 FSYNC 低电平后才开始传输数据，不像标准 SPI 那样可连续时钟运行，其协议更像是 I²S、TDM、或某些 DSP 设备特有的 SPI 变种。
+        简单来说，就是我们在每次写入数据前，需要手动拉高SCLK，再将片选引脚拉低，才开始通信。
+
         Args:
             data (int): 写入到AD9833寄存器的相关数据，必须为一个整数。
 
@@ -191,6 +195,12 @@ class AD9833:
         Writes data to the AD9833 register.
 
         This method writes the provided integer data to the AD9833 register to update its configuration or control the waveform.
+
+        The chip's SPI communication mode uses CPOL = 0, CPHA = 1, which is SPI Mode 1. Unlike the standard SPI chip select (CS) that stays low, FSYNC (frame sync) is briefly pulled low before each frame of data transmission.
+        SCLK only starts transmitting data after FSYNC goes low, unlike standard SPI, where the clock can run continuously.
+        This protocol is more similar to I²S, TDM, or some DSP devices' specific SPI variants.
+
+        In simple terms, before each data write, we need to manually pull SCLK high, then pull the chip select pin low to begin communication.
 
         Args:
             data (int): The data to be written to the AD9833 register, must be an integer.
