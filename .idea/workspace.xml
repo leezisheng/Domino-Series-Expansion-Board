@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接">
-      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/image/plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/image/sout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/image/terminal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/examples/SerialServoGetData/SerialServoGetData.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/examples/SerialServoRotation/SerialServoRotation.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/FreakStudio_Contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/UART_SERVO_Class_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/build_packet_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/receive_command_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/send_command_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/keywords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/library.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/src/serial_servo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/src/serial_servo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/UART_SERVO_Class_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/build_packet_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/receive_command_Arduino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/send_command_Arduino.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/00ActualSystem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/00ActualSystem.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/ad9833.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/MicroPython/ad9833.py" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +81,7 @@
       <workItem from="1738500875869" duration="149000" />
       <workItem from="1738582111969" duration="468000" />
       <workItem from="1738678436861" duration="6496000" />
+      <workItem from="1738687739876" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -220,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738469950495</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分">
+      <option name="closed" value="true" />
+      <created>1738687771572</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738687771572</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +208,7 @@
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board): 修改完成串口舵机驱动板和数据转换板中注释内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;新建四个文件夹+仓库&#10;更新图片链接" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
   </component>
 </project>
