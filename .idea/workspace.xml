@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分">
+      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/Arduino_Lib.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +87,8 @@
       <workItem from="1738582111969" duration="468000" />
       <workItem from="1738678436861" duration="6496000" />
       <workItem from="1738687739876" duration="36000" />
+      <workItem from="1738688399519" duration="4000" />
+      <workItem from="1738688408635" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />

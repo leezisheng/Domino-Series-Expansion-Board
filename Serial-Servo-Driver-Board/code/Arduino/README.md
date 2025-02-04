@@ -117,6 +117,12 @@ SerialServo 类的设计通过封装舵机控制指令和数据包的构建逻�
 
 库将会被自动导入到 Arduino IDE，接着就可以在代码中通过 `#include <SerialServo.h>` 来使用你的库了。
 
+该库当前也发布到了Arduino的库管理器中，你可以在Arduino IDE的库管理器中搜索`SerialServo`进行下载：
+![Arduino_Lib](extras/Arduino_Lib.png)
+
+或在以下Github仓库链接中选择下载：
+[**SerialServo Releases Version1.0.1**](https://github.com/leezisheng/SerialServo/releases/tag/v1.0.1)
+
 ### 使用示例
 
 ```cpp
@@ -279,6 +285,12 @@ Before running the example program, ensure that your Arduino environment is prop
 4. Select the `SerialServo.zip` file you just downloaded, then click **Open**.
 
 The library will be automatically imported into the Arduino IDE, and you can then use it in your code by including `#include <SerialServo.h>`.
+
+This library has also been published to the Arduino Library Manager. You can search for `SerialServo` in the Arduino IDE's Library Manager to download it:
+![Arduino_Lib](extras/Arduino_Lib.png)
+
+Alternatively, you can download it from the following GitHub repository link:
+[**SerialServo Releases Version 1.0.1**](https://github.com/leezisheng/SerialServo/releases/tag/v1.0.1)
 
 ### Usage Example
 
