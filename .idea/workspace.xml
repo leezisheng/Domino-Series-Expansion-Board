@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分">
-      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/extras/Arduino_Lib.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/hardware/PCB_PCB_数据转换器板_2025-01-30.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/hardware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/hardware/Schematic_数据转换器板_2025-01-30.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/image/FreakStudio_Contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/hardware/PCB_PCB_串口舵机驱动板_2025-01-30.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/hardware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/hardware/Schematic_串口舵机驱动板_2025-01-30.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/image/FreakStudio_Contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/hardware/PCB_PCB_信号发生板_2025-01-30.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/hardware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/hardware/Schematic_信号发生板_2025-01-30.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/image/FreakStudio_Contact.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/Arduino/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +98,7 @@
       <workItem from="1738687739876" duration="36000" />
       <workItem from="1738688399519" duration="4000" />
       <workItem from="1738688408635" duration="525000" />
+      <workItem from="1738916781256" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
