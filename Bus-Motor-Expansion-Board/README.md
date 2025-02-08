@@ -64,8 +64,8 @@
 在使用烧录完程序后的主控板通过扩展板控制电机前，务必确保电机和通信接线正确，供电无误：
 ![01ActualSummary2](image/01ActualSummary2.JPG)
 示例代码包括以下版本：
-- **MicroPython版本**：[总线电机扩展板MicroPython示例程序](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/code/MicroPython)
-- **Arduino版本**：[总线电机扩展板Arduino示例程序](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/code/Arduino)
+- **MicroPython版本**：[**总线电机扩展板MicroPython示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/code/MicroPython)
+- **Arduino版本**：[**总线电机扩展板Arduino示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/code/Arduino)
 
 ## 5.定制化选择
 你的模块，何必千篇一律？我们已经厌恶了市面上开源硬件厂商提供的一模一样的电子模块，类似如下：
@@ -84,8 +84,8 @@
 
 ## 6.获取链接
 
-- **商品链接**：[总线电机驱动扩展板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**总线电机驱动扩展板购买链接**](https://item.taobao.com/item.htm?id=884537886628&spm=a213gs.v2success.0.0.159d4831AvSz8f)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/hardware)
 
 ## 7.设计思路
 I2C总线电机扩展板类型可以分为I2C总线PWM电机控制类型和I2C总线外置主控电机控制类型两种：
@@ -200,8 +200,8 @@ Yes, for a higher price, you can even remove our logo!!!:
 
 ## 6. Purchase Links
 
-- **Product Link**: [Bus DC Motor Driver Expansion Board Purchase Link]
-- **Hardware Open Source Link**: [Hardware Open Source Materials Link]
+- **Product Link**: [**Bus DC Motor Driver Expansion Board Purchase Link**](https://item.taobao.com/item.htm?id=884537886628&spm=a213gs.v2success.0.0.159d4831AvSz8f)
+- **Hardware Open Source Link**: [**Hardware Open Source Materials Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/hardware)
 
 ## 7. Design Concept
 I2C bus motor expansion boards can be divided into two types: I2C bus PWM motor control type and I2C bus external controller motor control type:

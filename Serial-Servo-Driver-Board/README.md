@@ -58,8 +58,8 @@
 
 ## 5.获取链接
 
-- **商品链接**：[总线电机驱动扩展板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**串口舵机驱动板购买链接**](https://item.taobao.com/item.htm?ft=t&id=884719978741&spm=a21dvs.23580594.0.0.4fee2c1bkqiSEB)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board/hardware)
 
 # Serial-Servo-Driver-Board
 
@@ -127,5 +127,5 @@ Example code includes the following versions:
 
 ## 5. Access Links
 
-- **Product Link**: [Bus Motor Driver Expansion Board Purchase Link]
-- **Hardware Open Source Link**: [Hardware Open Source Resources Link]
+- **Product Link**: [**Serial Servo Driver Board Purchase Link**](https://item.taobao.com/item.htm?ft=t&id=884719978741&spm=a21dvs.23580594.0.0.4fee2c1bkqiSEB)
+- **Hardware Open Source Link**: [**Hardware Open Source Resources Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board/hardware)

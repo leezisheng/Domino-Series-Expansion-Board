@@ -59,8 +59,8 @@
 - **Arduino版本**：[**数据转换板Arduino示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/code/Arduino)
 
 ## 5.获取链接
-- **商品链接**：[总线电机驱动扩展板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**数据转换购买链接**](https://item.taobao.com/item.htm?ft=t&id=885451304925&spm=a21dvs.23580594.0.0.4fee2c1bp8QKAT)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/hardware)
 
 # Data-Conversion-Board
 ## 1. Overview
@@ -119,5 +119,5 @@ Example code includes the following versions:
 - **Arduino Version**: [**Data Conversion Board Arduino Example Program**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/code/Arduino)
 
 ## 5. Access Links
-- **Product Link**: [Bus Motor Driver Expansion Board Purchase Link]
-- **Hardware Open Source Link**: [Hardware Open Source Materials Link]
+- **Product Link**: [**Data Conversion Board Purchase Link**](https://item.taobao.com/item.htm?ft=t&id=885451304925&spm=a21dvs.23580594.0.0.4fee2c1bp8QKAT)
+- **Hardware Open Source Link**: [**Hardware Open Source Materials Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/hardware)

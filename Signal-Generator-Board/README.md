@@ -59,8 +59,8 @@
 - **Arduino版本**：[**信号发生扩展板Arduino示例程序**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/code/Arduino)
 
 ## 5.获取链接
-- **商品链接**：[信号发生扩展板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**信号发生扩展板购买链接**](https://item.taobao.com/item.htm?ft=t&id=884483819766&spm=a21dvs.23580594.0.0.3c3a2c1bdZhxfZ)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/hardware)
 
 # Signal-Generator-Board
 
@@ -119,5 +119,5 @@ Sample code is available for the following versions:
 - **Arduino Version**: [**Signal Generator Expansion Board Arduino Example Program**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/code/Arduino)
 
 ## 5. Links
-- **Product Link**: [Signal Generator Expansion Board Purchase Link]
-- **Hardware Open Source Link**: [Hardware Open Source Materials Link]
+- **Product Link**: [**Signal Generator Expansion Board Purchase Link**](https://item.taobao.com/item.htm?ft=t&id=884483819766&spm=a21dvs.23580594.0.0.3c3a2c1bdZhxfZ)
+- **Hardware Open Source Link**: [**Hardware Open Source Materials Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/hardware)
