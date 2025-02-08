@@ -9,8 +9,8 @@
 该模块适用于各种需要高精度、可调信号的实验和应用场景。
 
 该软件必须在提供的信号发生扩展板（由FreakStudio开发设计的多米诺系列扩展板）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
-- **商品链接**：[信号发生扩展板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**信号发生扩展板购买链接**](https://item.taobao.com/item.htm?ft=t&id=884483819766&spm=a21dvs.23580594.0.0.3c3a2c1bdZhxfZ)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/hardware)
 
 ## **主要特性**
 
@@ -165,6 +165,9 @@ AD9833和MCP41010类都通过SPI接口与主控芯片进行通信，实现了对
 This example program is designed for a signal generator module based on Digital Signal Synthesis (DDS) technology. It provides adjustable frequency, amplitude, and waveform type output signals. By using the MCP41010 digital potentiometer and AD9833 waveform generator chip, users can easily adjust the amplitude and frequency of the output signal. This module is suitable for various experimental and application scenarios requiring high precision and adjustable signals.
 
 The software must be run on the provided signal generator expansion board (Domino Series designed by FreakStudio) to ensure proper operation. Please refer to the hardware open-source links and product links for more detailed information.
+- **Product Link**: [**Signal Generator Expansion Board Purchase Link**](https://item.taobao.com/item.htm?ft=t&id=884483819766&spm=a21dvs.23580594.0.0.3c3a2c1bdZhxfZ)
+- **Hardware Open Source Link**: [**Hardware Open Source Materials Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Signal-Generator-Board/hardware)
+
 
 ## **Main Features**
 

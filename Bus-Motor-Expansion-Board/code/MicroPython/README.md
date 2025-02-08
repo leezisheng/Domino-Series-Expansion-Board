@@ -11,8 +11,8 @@
 - `bus_dc_motor.py`: 用于控制四个直流电机的正反转和调速。
 
 该软件必须在提供的总线电机驱动扩展板（由FreakStudio开发设计的多米诺系列）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
-  - **商品链接**：[总线电机驱动扩展板购买链接]
-  - **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**总线电机驱动扩展板购买链接**](https://item.taobao.com/item.htm?id=884537886628&spm=a213gs.v2success.0.0.159d4831AvSz8f)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/hardware)
 
 ## 主要特性
 
@@ -181,8 +181,9 @@ This example program demonstrates how to control multiple motors using the Bus M
 - `bus_dc_motor.py`: Controls the forward/reverse motion and speed of four DC motors.
 
 This software must run on the provided Bus Motor Driver Expansion Board (Domino Series designed by FreakStudio) to ensure proper operation. Please refer to the hardware open-source link and product link for more details.
-  - **Product Link**: [Bus Motor Driver Expansion Board Purchase Link]
-  - **Hardware Open-Source Link**: [Hardware Open-Source Documentation Link]
+- **Product Link**: [**Bus DC Motor Driver Expansion Board Purchase Link**](https://item.taobao.com/item.htm?id=884537886628&spm=a213gs.v2success.0.0.159d4831AvSz8f)
+- **Hardware Open Source Link**: [**Hardware Open Source Materials Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-Motor-Expansion-Board/hardware)
+
 
 ## Main Features
 

@@ -8,8 +8,8 @@
 程序中使用了串口通讯与舵机进行数据交互，提供了完整的控制命令和反馈解析功能。
 
 该软件必须在提供的串口舵机扩展板（由FreakStudio开发设计）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
-- **商品链接**：[串口舵机扩展板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**串口舵机驱动板购买链接**](https://item.taobao.com/item.htm?ft=t&id=884719978741&spm=a21dvs.23580594.0.0.4fee2c1bkqiSEB)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board/hardware)
 
 ## 主要特性
 
@@ -157,8 +157,9 @@ print(f"Servo ID: 1, Angle: {angle}, Time: {time}")
 This example program demonstrates how to control the Serial Servo Expansion Board (FreakStudio - Domino Series) using MicroPython. Through serial communication, users can control multiple servos' angles, speeds, and other parameters, enabling efficient and flexible servo control. The program uses serial communication to exchange data with the servos, providing complete control commands and feedback parsing functionality.
 
 The software must run on the provided serial servo expansion board (designed by FreakStudio) to ensure proper operation. Please refer to the hardware open-source link and product link for detailed information.
-- **Product Link**: [Serial Servo Expansion Board Purchase Link]
-- **Hardware Open-Source Link**: [Hardware Open-Source Documentation Link]
+- **Product Link**: [**Serial Servo Driver Board Purchase Link**](https://item.taobao.com/item.htm?ft=t&id=884719978741&spm=a21dvs.23580594.0.0.4fee2c1bkqiSEB)
+- **Hardware Open Source Link**: [**Hardware Open Source Resources Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board/hardware)
+
 
 ## Main Features
 

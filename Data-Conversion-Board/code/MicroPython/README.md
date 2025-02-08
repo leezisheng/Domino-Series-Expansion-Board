@@ -9,8 +9,8 @@
 除此之外，我们还提供了一个WaveformGenerator自定义DAC波形发生器类来实现使用DAC芯片生成频率在10Hz内的三角波、矩形波、正弦波，并且可以设置信号幅度、直流偏移或信号频率。
 
 该软件必须在提供的数据转换板（由FreakStudio开发设计的多米诺系列）上运行，才能确保其正常工作。请参阅硬件开源链接和商品链接获取详细信息。
-- **商品链接**：[数据转换板购买链接]
-- **硬件开源链接**：[硬件开源资料链接]
+- **商品链接**：[**数据转换购买链接**](https://item.taobao.com/item.htm?ft=t&id=885451304925&spm=a21dvs.23580594.0.0.4fee2c1bp8QKAT)
+- **硬件开源链接**：[**硬件开源资料链接**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/hardware)
 
 ## 主要特性
 
@@ -376,8 +376,8 @@ while True:
 This example program demonstrates how to use MicroPython to control the Data Conversion Board (FreakStudio). Through the I2C communication interface of the main controller chip, users can use the onboard ADS1115 analog-to-digital converter (ADC) chip to achieve four-channel signal input. Users can configure the sampling rate, input mode (single-ended input/differential input), and conversion mode (continuous conversion or triggered conversion). Additionally, the onboard MCP4725 digital-to-analog converter (DAC) chip can be used to output analog voltage values, or the power-down mode can be enabled to reduce power consumption when the DAC is not needed. Furthermore, we provide a custom WaveformGenerator DAC waveform generator class to generate triangle, square, and sine waves with frequencies within 10Hz using the DAC chip. The amplitude, DC offset, and signal frequency can be set.
 
 This software must run on the provided data conversion board (Domino Series designed and developed by FreakStudio) to ensure its proper functioning. Please refer to the hardware open-source link and product link for more details.
-- **Product Link**: [Data Conversion Board Purchase Link]
-- **Hardware Open-Source Link**: [Hardware Open Source Documentation Link]
+- **Product Link**: [**Data Conversion Board Purchase Link**](https://item.taobao.com/item.htm?ft=t&id=885451304925&spm=a21dvs.23580594.0.0.4fee2c1bp8QKAT)
+- **Hardware Open Source Link**: [**Hardware Open Source Materials Link**](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Data-Conversion-Board/hardware)
 
 ## Key Features
 
