@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分">
-      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/Arduino/PCA9685-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/Arduino/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/Arduino/ADS1115-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/Arduino/MCP4725-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/Arduino/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/Arduino/AD9833-Library-Arduino-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/Arduino/MCP41_Simple-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Signal-Generator-Board/code/Arduino/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +85,7 @@
       <workItem from="1738688399519" duration="4000" />
       <workItem from="1738688408635" duration="525000" />
       <workItem from="1738916781256" duration="8900000" />
-      <workItem from="1739026347725" duration="1980000" />
+      <workItem from="1739026347725" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -220,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738987843311</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕">
+      <option name="closed" value="true" />
+      <created>1739028674336</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739028674336</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +229,7 @@
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 修改完成信号发生板中内容&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;更新多米诺README文件&#10;更新图片链接" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕" />
   </component>
 </project>
