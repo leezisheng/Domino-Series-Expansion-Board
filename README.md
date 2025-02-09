@@ -22,6 +22,9 @@
 
 目前支持的主控板包括：
 * [Seeed Studio XIAO 拇指开发板](https://wiki.seeedstudio.com/cn/SeeedStudio_XIAO_Series_Introduction/)
+![XIAO](image/XIAO.png)
+* [Adafruit QT Py 系列主控板](https://learn.adafruit.com/adafruit-qt-py/pinouts)
+![Adafruit](image/Adafruit.png)
 
 详细描述可以查看飞书云文档链接：**[Freak嵌入式工作室-多米诺系列开发板-飞书云](https://f1829ryac0m.feishu.cn/docx/ZzA5dIsdyowLUKxJr0fcwYInnhd?from=from_copylink)**。
 
@@ -122,7 +125,11 @@ The corresponding interfaces of the Domino Series Expansion Boards refer to the 
 We have released part of the common functionality provided by the Domino Series Expansion Boards as MicroPython software packages on the **[PyPi package management platform](https://pypi.org/user/leeqingshui/)**.
 
 Currently supported development boards include:
-* [Seeed Studio XIAO Thumb Development Board](https://wiki.seeedstudio.com/cn/SeeedStudio_XIAO_Series_Introduction/)
+* [Seeed Studio XIAO Thumb-Sized Development Board](https://wiki.seeedstudio.com/cn/SeeedStudio_XIAO_Series_Introduction/)  
+  ![XIAO](image/XIAO.png)
+
+* [Adafruit QT Py Series Microcontroller Board](https://learn.adafruit.com/adafruit-qt-py/pinouts)  
+  ![Adafruit](image/Adafruit.png)
 
 For more details, check the Feishu cloud document link: **[Freak Embedded Studio - Domino Series Development Boards - Feishu Cloud](https://f1829ryac0m.feishu.cn/docx/ZzA5dIsdyowLUKxJr0fcwYInnhd?from=from_copylink)**.
 
