@@ -103,8 +103,8 @@
 ![04_2](image/04_2.jpg)
 ![04_3](image/04_3.jpg)
 小版本可用在小尺寸的扩展板上：
-![05_1](image/05_1.jpg)
-![05_2](image/05_2.jpg)
+![05_1](image/05_1.JPG)
+![05_2](image/05_2.JPG)
 均采用3mm厚的亚克力板制成，其图标使用AutoCAD软件抠图，更厚更坚固，真材实料看得见！
 
 🔗 获取链接：[**红蓝双色扩展板亚克力底板适配seeedstudioXIAO多功能扩展板**](https://item.taobao.com/item.htm?id=894579274204)
