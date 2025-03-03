@@ -223,8 +223,8 @@ The **large version** is designed for the SeeedStudio XIAO multifunctional expan
 ![04_3](image/04_3.jpg)  
 
 The **small version** is suitable for compact expansion boards:  
-![05_1](image/05_1.jpg)  
-![05_2](image/05_2.jpg)  
+![05_1](image/05_1.JPG)
+![05_2](image/05_2.JPG)
 
 Both versions are made of **3mm thick acrylic** with precisely cut icons using AutoCAD software. The material is **thicker and more durable**, ensuring **real quality you can see!**  
 
