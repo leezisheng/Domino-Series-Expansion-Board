@@ -96,6 +96,19 @@
 
 我们提供了MicroPython和Arduino的示例代码，并且**对参考代码中通信部分进行优化，改进了其指令切换卡顿问题**，确保通信无误。
 
+## 扩展板亚克力底板📟
+我们提供了扩展板的亚克力底板，包括大小两个版本：
+大版本可以使用在SeeedStudio XIAO多功能扩展板上，底板部分灵感来源于PCB板上的连线和过孔：
+![04_1](image/04_1.jpg)
+![04_2](image/04_2.jpg)
+![04_3](image/04_3.jpg)
+小版本可用在小尺寸的扩展板上：
+![05_1](image/05_1.jpg)
+![05_2](image/05_2.jpg)
+均采用3mm厚的亚克力板制成，其图标使用AutoCAD软件抠图，更厚更坚固，真材实料看得见！
+
+🔗 获取链接：[**红蓝双色扩展板亚克力底板适配seeedstudioXIAO多功能扩展板**](https://item.taobao.com/item.htm?id=894579274204)
+
 # Freak嵌入式工作室介绍👨‍💻🌟
 Freak嵌入式工作室位以嵌入式电子套件及相关教程、成品电子模块开发、个人DIY电子作品为主要产品，致力于嵌入式教育📚和大学生创新创业比赛、电子计算机类比赛培训🧑‍💻。
 
@@ -200,6 +213,22 @@ The Signal Generator Expansion Board is used to generate adjustable frequency an
 - **Stability and Noise Filtering**: Compensation resistors optimize the performance of the in-phase amplifier to reduce parasitic effects. Tantalum capacitors are used to filter the op-amp power supply, ensuring high-frequency stability.
 
 We provide both MicroPython and Arduino example code, with **improved communication code to resolve instruction switching lag** and ensure smooth communication.
+
+## Acrylic Baseplate for Expansion Board 📟
+
+We offer acrylic baseplates for expansion boards in two sizes:  
+The **large version** is designed for the SeeedStudio XIAO multifunctional expansion board, inspired by PCB traces and vias:  
+![04_1](image/04_1.jpg)  
+![04_2](image/04_2.jpg)  
+![04_3](image/04_3.jpg)  
+
+The **small version** is suitable for compact expansion boards:  
+![05_1](image/05_1.jpg)  
+![05_2](image/05_2.jpg)  
+
+Both versions are made of **3mm thick acrylic** with precisely cut icons using AutoCAD software. The material is **thicker and more durable**, ensuring **real quality you can see!**  
+
+🔗 Get it here: [**Red & Blue Dual-Color Acrylic Baseplate for SeeedStudio XIAO Multifunctional Expansion Board**](https://item.taobao.com/item.htm?id=894579274204)
 
 # FreakStudio Introduction👨‍💻🌟
 Freak Embedded Studio focuses on embedded electronic kits, related tutorials, finished electronic module development, and personal DIY electronic projects. We are committed to embedded education 📚 and training for university students in innovation and entrepreneurship competitions, as well as electronic and computer-related competitions 🧑‍💻.
