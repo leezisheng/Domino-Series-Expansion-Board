@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕">
-      <change afterPath="$PROJECT_DIR$/Firmware/MicroPython/XIAO-Pico/RPI_PICO-20240602-v1.23.0.uf2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/Relay-Expansion-Board.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/04_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/04_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/04_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/05_1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/05_2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 增加亚克力底板介绍&#10;&#10;增加亚克力底板介绍" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +88,7 @@
       <workItem from="1739026347725" duration="2649000" />
       <workItem from="1739082067169" duration="2496000" />
       <workItem from="1739176596110" duration="2498000" />
-      <workItem from="1741021205086" duration="380000" />
+      <workItem from="1741021205086" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -254,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739176617380</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 增加亚克力底板介绍&#10;&#10;增加亚克力底板介绍">
+      <option name="closed" value="true" />
+      <created>1741021608852</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741021608852</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +257,7 @@
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 更新多米诺README文件&#10;&#10;还需要修改：&#10;DDS和数据转换 代码使用示例插图&#10;打包库文件的图片链接" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 注释全部完毕，仅差Arduino部分&#10;&#10;注释全部完毕，仅差Arduino部分" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 完全修改完毕&#10;&#10;完全修改完毕" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 增加亚克力底板介绍&#10;&#10;增加亚克力底板介绍" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 增加亚克力底板介绍&#10;&#10;增加亚克力底板介绍" />
   </component>
 </project>
