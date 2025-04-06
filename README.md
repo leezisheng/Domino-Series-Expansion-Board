@@ -232,6 +232,25 @@ The Signal Generator Expansion Board is used to generate adjustable frequency an
 
 We provide both MicroPython and Arduino example code, with **improved communication code to resolve instruction switching lag** and ensure smooth communication.
 
+
+## Bus Unipolar Stepper Motor Expansion Board ⚙️
+![00summary](Bus-StepMotor-Expansion-Board/image/00summary.png)
+![00actual1](Bus-StepMotor-Expansion-Board/image/00actual1.png)
+![00actual2](Bus-StepMotor-Expansion-Board/image/00actual2.png)
+
+The [Bus Unipolar Stepper Motor Expansion Board](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Bus-StepMotor-Expansion-Board) is a module designed to control multiple unipolar stepper motors (e.g., 5-wire 4-phase stepper motors like 28BYJ48, 35BYJ46, 35BY412L) via the I2C serial communication interface. Key features include:  
+- **Compact Design:** Compatible with XIAO series and Adafruit Qt Py series main control boards, or usable as a standalone module.  
+- **I2C Interface:** Supports daisy-chaining with stackable expansion. Four address bits allow theoretical cascading of up to 16 driver boards.  
+- **Onboard Power Indicators:** LEDs for motor power and PWM expansion chip power.  
+- **Power Protection:** Supports power input via terminal blocks or Type-C port with reverse-polarity protection.  
+- **Stable Power Regulation:** Utilizes two 220μF solid-state capacitors for lower ESR, higher frequency performance, and longer lifespan compared to aluminum electrolytic capacitors.  
+- **Broad Compatibility:** Drives various 5-wire 4-phase unipolar stepper motors (e.g., 28BYJ-48) at 5V–24V. ULN2003 Darlington array provides 500mA per channel (2.5A total per chip).  
+- **Multiple Driving Modes:** Supports single-step, full-step, and half-step modes, with per-channel LED indicators.  
+
+This expansion board combines a compact footprint (directly attachable to XIAO mainboards or standalone use) with ULN2003 drivers (500mA/channel, 2.5A total) for 5-wire 4-phase steppers (5–24V input). Dual solid capacitors ensure stable power, while reverse-polarity protection and visual status LEDs enhance reliability in stacked configurations.  
+
+We provide MicroPython sample code with robust error handling for multi-motor independent control.  
+
 ## Acrylic Baseplate for Expansion Board 📟
 
 We offer acrylic baseplates for expansion boards in two sizes:  
