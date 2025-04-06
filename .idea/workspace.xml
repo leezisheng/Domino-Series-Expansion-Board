@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板测试代码完成&#10;&#10;I2C总线步进电机驱动板测试代码完成" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板测试代码完成&#10;&#10;I2C总线步进电机驱动板测试代码完成">
+      <change afterPath="$PROJECT_DIR$/Bus-Motor-Expansion-Board/code/MicroPython/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/MicroPython/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/hardware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/hardware/README.md.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/BusStepMotor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/DRIVER_MODE_DOUBLE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/DRIVER_MODE_HALF_STEP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/DRIVER_MODE_SINGLE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/double.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/single.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/refrence/PCA9685.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/refrence/PCA9685_SCH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/refrence/ULN2803.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/refrence/ULN2803F.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/refrence/uln2003a.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Conversion-Board/code/MicroPython/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/code/MicroPython/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/CopilotChatHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/libraries/MicroPython.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/.idea/runConfigurations/Flash_code.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/bus_step_motor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/pca9685.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Serial-Servo-Driver-Board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Serial-Servo-Driver-Board/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +125,8 @@
       <workItem from="1741021205086" duration="1198000" />
       <workItem from="1743506818175" duration="9000" />
       <workItem from="1743506835155" duration="286000" />
+      <workItem from="1743564617406" duration="6324000" />
+      <workItem from="1743905888529" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />

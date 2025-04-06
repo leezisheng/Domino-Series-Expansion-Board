@@ -9,7 +9,7 @@
 ![00Overview](image/00Overview.png)
 [总线舵机扩展板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board)是一种用于通过串行通信接口UART来控制多个舵机的扩展模块，具有以下主要特点：
 - **小尺寸设计**：可以与XIAO系列主控板直接连接，也可以作为独立模块使用。
-- **UART接口**：提供I2C总线接口进行堆叠式级联，最多支持4个电机驱动扩展板
+- **UART接口**：提供UART接口进行连接控制，支持堆叠式级联控制更多串口舵机。
 - **全双工转半双工电路设计**：使用三态缓冲器和反相器实现串口通信全双工转半双工设计，一根信号线兼具串口收发功能
 - **多个供电指示灯**：板载电源指示灯显示舵机供电状态、芯片供电状态和通信状态。
 - **供电保护设计**：使用二极管防止电源反接，保险丝防止舵机堵转过流，支持7V到12V供电。
@@ -70,7 +70,7 @@
 
 [Bus Servo Expansion Board](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Serial-Servo-Driver-Board) is an expansion module used to control multiple servos via the UART serial communication interface. It has the following key features:
 - **Compact Design**: Can be directly connected to XIAO series main control boards or used as an independent module.
-- **UART Interface**: Provides an I2C bus interface for stacking, supporting up to 4 motor driver expansion boards.
+- **UART Interface**: Provide a UART interface for connection and control, supporting stacked cascading to control more serial servos.
 - **Full-Duplex to Half-Duplex Circuit Design**: Uses tri-state buffers and inverters to achieve full-duplex to half-duplex serial communication, with one signal line serving both transmit and receive functions.
 - **Multiple Power Indicators**: Onboard power indicators display the servo power status, chip power status, and communication status.
 - **Power Protection Design**: Uses diodes to prevent reverse power connection and fuses to prevent damage due to servo stalls, supporting 7V to 12V power supply.

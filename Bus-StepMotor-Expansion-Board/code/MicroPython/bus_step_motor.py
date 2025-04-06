@@ -24,7 +24,7 @@ import micropython
 # 自定义总线步进电机驱动类
 class BusStepMotor:
     """
-    通过PCA9685芯片控制步进电机，支持多电机独立控制，能够实现步进电机的正反转、角度控制及定步运动。
+    通过PCA9685芯片控制步进电机，支持多电机独立控制，能够实现步进电机的正反转、持续运动及定步运动控制，支持单相、双相、半步驱动模式。
 
     Class Variables:
         DRIVER_MODE_SINGLE (int): 单相驱动模式的常量值。
@@ -54,8 +54,9 @@ class BusStepMotor:
         start_step_motion(motor_id: int, direction: int, driver_mode: int, speed: int, steps: int): 启动步进电机的定步运动，按照指定步数执行。
 
     ===========================================
-    A class to control stepper motors via the PCA9685 chip, supporting independent control of multiple motors,
-    with features such as forward and reverse motion, angle control, and stepwise movement.
+    Using the PCA9685 chip to control stepper motors, it supports independent control of multiple motors,
+    enabling forward and reverse rotation, continuous motion, and step-by-step movement.
+    It supports single-phase, dual-phase, and half-step driving modes.
 
     Class Variables:
         DRIVER_MODE_SINGLE (int): Constant value for single-phase driver mode.
