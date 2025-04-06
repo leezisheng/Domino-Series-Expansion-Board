@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 还差I2C总线步进电机驱动板介绍文档&#10;&#10;还差I2C总线步进电机驱动板介绍文档">
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/00actual1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/00actual2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/00actual3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/00actual4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/00actual5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/00summary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/01whymake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/02howthink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/02howthink2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/03howthink3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/04note1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/04note2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/04note3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/04note4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/05single.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/06double.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/07multi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/08connect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/09power.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/10cap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/11addr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/12led.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/image/13all.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板介绍文档基本完成&#10;&#10;I2C总线步进电机驱动板介绍文档基本完成" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +92,7 @@
       <workItem from="1743506818175" duration="9000" />
       <workItem from="1743506835155" duration="286000" />
       <workItem from="1743564617406" duration="6324000" />
-      <workItem from="1743905888529" duration="3330000" />
+      <workItem from="1743905888529" duration="3987000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -288,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743906618590</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板介绍文档基本完成&#10;&#10;I2C总线步进电机驱动板介绍文档基本完成">
+      <option name="closed" value="true" />
+      <created>1743909303841</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1743909303841</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +288,7 @@
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 增加亚克力底板介绍&#10;&#10;增加亚克力底板介绍" />
     <MESSAGE value="feat(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板测试代码完成&#10;&#10;I2C总线步进电机驱动板测试代码完成" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 还差I2C总线步进电机驱动板介绍文档&#10;&#10;还差I2C总线步进电机驱动板介绍文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 还差I2C总线步进电机驱动板介绍文档&#10;&#10;还差I2C总线步进电机驱动板介绍文档" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板介绍文档基本完成&#10;&#10;I2C总线步进电机驱动板介绍文档基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板介绍文档基本完成&#10;&#10;I2C总线步进电机驱动板介绍文档基本完成" />
   </component>
 </project>
