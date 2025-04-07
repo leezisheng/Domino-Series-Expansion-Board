@@ -3,7 +3,7 @@
 - [中文部分](#总线单极性步进电机扩展板)
 - [English Section](#Bus-StepMotor-Expansion-Board)
 
-# 总线直流电机扩展板
+# 总线单极性步进电机扩展板
 
 ---
 
