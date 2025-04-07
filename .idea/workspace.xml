@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 添加总体介绍部分文档&#10;&#10;添加总体介绍部分文档">
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +96,8 @@
       <workItem from="1743506835155" duration="286000" />
       <workItem from="1743564617406" duration="6324000" />
       <workItem from="1743905888529" duration="6527000" />
+      <workItem from="1743951157006" duration="1426000" />
+      <workItem from="1743955544834" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -296,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743913586394</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 添加总体介绍部分文档&#10;&#10;添加总体介绍部分文档">
+      <option name="closed" value="true" />
+      <created>1743951164048</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1743951164048</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
