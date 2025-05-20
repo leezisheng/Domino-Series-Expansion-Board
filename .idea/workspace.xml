@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化文档&#10;&#10;初始化文档">
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/00image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/01REAL.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/02image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/03lac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/04MOS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/05Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/06Int.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/07Motor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/08light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/09light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/09warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/10led.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/11xy118.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/12power.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/13all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/00image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/01REAL.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/03lac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/04MOS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/05Normal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Relay-Expansion-Board/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/image/REAL.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/image/image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/image/image2.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +99,7 @@
       <workItem from="1743955544834" duration="2729000" />
       <workItem from="1744042430437" duration="40000" />
       <workItem from="1747723001183" duration="785000" />
-      <workItem from="1747726340375" duration="2792000" />
+      <workItem from="1747726340375" duration="4628000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -351,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747725517275</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分">
+      <option name="closed" value="true" />
+      <created>1747750684942</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1747750684942</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +354,7 @@
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): I2C总线步进电机驱动板介绍文档基本完成&#10;&#10;I2C总线步进电机驱动板介绍文档基本完成" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 添加总体介绍部分文档&#10;&#10;添加总体介绍部分文档" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化文档&#10;&#10;初始化文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化文档&#10;&#10;初始化文档" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分" />
   </component>
 </project>
