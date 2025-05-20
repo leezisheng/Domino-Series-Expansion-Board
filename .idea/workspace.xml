@@ -5,10 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Signal-Generator-Board): 添加总体介绍部分文档&#10;&#10;添加总体介绍部分文档">
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/MicroPython.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/libraries/MicroPython.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/runConfigurations/Flash_MicroPython.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/code/MicroPython/relay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/hardware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/hardware/SCH_MOS管继电器拓展板_2025-04-23.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/hardware/SCH_单通道功率继电器拓展板_2025-04-23.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/hardware/SCH_磁保持继电器拓展板_2025-04-23.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/FreakStudio_Contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/REAL.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/image/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/FM116C单路H桥.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/G6KU磁保持继电器.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/HF46F超小功率继电器.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/MOS管.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/PC817C光耦隔离芯片.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/SS8550三极管.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relay-Expansion-Board/reference/XY118弹簧式接线端子.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bus-StepMotor-Expansion-Board/code/MicroPython/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/CopilotChatHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/Relay-Expansion-Board.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relay-Expansion-Board/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +137,7 @@
       <workItem from="1743951157006" duration="1426000" />
       <workItem from="1743955544834" duration="2729000" />
       <workItem from="1744042430437" duration="40000" />
+      <workItem from="1747723001183" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
