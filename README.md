@@ -114,6 +114,20 @@
 
 我们提供了MicroPython的示例代码，具有完善的异常检测机制，支持多电机独立控制。
 
+## 继电器扩展板🛎️
+![00image1](Relay-Expansion-Board/image/00image1.png)
+![01REAL](Relay-Expansion-Board/image/01REAL.JPG)
+[继电器扩展板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Relay-Expansion-Board)用于提供单路独立继电器驱动能力，可根据应用场景选择不同类型以优化功耗、响应速度与驱动电压范围，我们做了常用的三个继电器扩展板版本：
+- 磁保持低功耗版：利用 DC 马达驱动芯片驱动保持型（双稳态）继电器，实现断电记忆且静态功耗接近零；
+- 高压交流版：面向中小功率 AC 负载场景，采用光耦隔离与吸合指示灯，保证高压侧安全隔离与状态可视；
+- 低压直流 MOS 管版：用于高频/高效直流开关，集成光耦隔离与吸合指示灯，具备低驱动功耗与高速切换。
+其中，磁保持低功耗版采用双稳态继电器，继电器仅在切换瞬间通电，完成“吸合”或“复位”后断电保持状态，常态下零功耗，适用于对电池续航要求极高的场景，最高可承受125V 0.3A AC或30V 1A DC电源，镂空设计参考了Seeed的Relay Module for IoT & home automation。
+![00image1](Relay-Expansion-Board/image/02image2.png)
+低压直流 MOS 管版同样采用光耦隔离驱动，使用MOSFET作为开关元件，加装 LED 状态指示，直观显示开关状态，适合 PWM 调光、电机调速等高频直流切换场景，最高可承受40V 70A DC电源。
+![00image1](Relay-Expansion-Board/image/03lac.png)
+高压交流版使用光耦隔离驱动，配备 LED 指示，当继电器吸合时对应 LED 点亮，最高可承受250V 8A AC或30V 8A DC电源，镂空设计参考了Seeed的Relay Module for IoT & home automation。
+![00image1](Relay-Expansion-Board/image/04MOS.png)
+
 ## 扩展板亚克力底板📟
 我们提供了扩展板的亚克力底板，包括大小两个版本：
 大版本可以使用在SeeedStudio XIAO多功能扩展板上，底板部分灵感来源于PCB板上的连线和过孔：
@@ -250,6 +264,27 @@ The [Bus Unipolar Stepper Motor Expansion Board](https://github.com/leezisheng/D
 This expansion board combines a compact footprint (directly attachable to XIAO mainboards or standalone use) with ULN2003 drivers (500mA/channel, 2.5A total) for 5-wire 4-phase steppers (5–24V input). Dual solid capacitors ensure stable power, while reverse-polarity protection and visual status LEDs enhance reliability in stacked configurations.  
 
 We provide MicroPython sample code with robust error handling for multi-motor independent control.  
+
+## Relay Expansion Board 🛎️  
+![00image1](Relay-Expansion-Board/image/00image1.png)  
+![01REAL](Relay-Expansion-Board/image/01REAL.JPG)  
+
+The [Relay Expansion Board](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Relay-Expansion-Board) provides single-channel independent relay driving capabilities. Three optimized versions are available for different application scenarios:  
+- **Magnetic Latching Low-Power Version**: Uses a DC motor driver chip to control a bistable relay, achieving zero static power consumption and power-off state memory.  
+- **High-Voltage AC Version**: Designed for AC loads with optocoupler isolation and status LEDs, ensuring safe isolation and visual state indication.  
+- **Low-Voltage DC MOSFET Version**: Optimized for high-frequency DC switching with MOSFETs, featuring optocoupler isolation and LED indicators.  
+
+### Magnetic Latching Low-Power Version  
+Employs a bistable relay that only consumes power during state transitions ("latch" or "release"). Ideal for battery-powered scenarios requiring zero standby power. Supports up to **125V 0.3A AC** or **30V 1A DC**. PCB design references Seeed's Relay Module for IoT & home automation.  
+![00image1](Relay-Expansion-Board/image/02image2.png)  
+
+### Low-Voltage DC MOSFET Version  
+Uses MOSFETs for efficient switching with optocoupler isolation and LED status indicators. Suitable for PWM dimming, motor control, and other DC applications. Supports up to **40V 70A DC**.  
+![00image1](Relay-Expansion-Board/image/03lac.png)  
+
+### High-Voltage AC Version  
+Features optocoupler isolation and LEDs (lit when relay is engaged). Supports up to **250V 8A AC** or **30V 8A DC**. PCB design references Seeed's Relay Module for IoT & home automation.  
+![00image1](Relay-Expansion-Board/image/04MOS.png)  
 
 ## Acrylic Baseplate for Expansion Board 📟
 
