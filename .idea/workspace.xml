@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +97,7 @@
       <workItem from="1743955544834" duration="2729000" />
       <workItem from="1744042430437" duration="40000" />
       <workItem from="1747723001183" duration="785000" />
-      <workItem from="1747726340375" duration="4628000" />
+      <workItem from="1747726340375" duration="5226000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />

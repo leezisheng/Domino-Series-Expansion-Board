@@ -81,16 +81,16 @@ else:
 
 # ========================================  主程序  ===========================================
 
-# # 打开继电器
-# relay.on()
-# # 延时1s
-# time.sleep(1)
-# # 关闭继电器
-# relay.off()
-#
-# # 继电器开合音乐
-# while True:
-#     print("Playing relay music...")
-#     play_relay_music()
-#     # 每段音乐间隔1秒
-#     time.sleep(1)
+# 打开继电器
+relay.on()
+# 延时1s
+time.sleep(1)
+# 关闭继电器
+relay.off()
+
+# 继电器开合音乐
+while True:
+    print("Playing relay music...")
+    play_relay_music()
+    # 每段音乐间隔1秒
+    time.sleep(1)
