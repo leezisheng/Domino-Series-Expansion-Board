@@ -128,6 +128,22 @@
 高压交流版使用光耦隔离驱动，配备 LED 指示，当继电器吸合时对应 LED 点亮，最高可承受250V 8A AC或30V 8A DC电源，镂空设计参考了Seeed的Relay Module for IoT & home automation。
 ![00image1](Relay-Expansion-Board/image/04MOS.png)
 
+## 锂电池充放电管理板🔌
+
+![00summary](https://github.com/leezisheng/Domino-Series-Expansion-Board/raw/main/Li-ion-BMS-Board/image/00summary.png)
+
+![01fake](https://github.com/leezisheng/Domino-Series-Expansion-Board/blob/main/Li-ion-BMS-Board/image/01fake.png)
+
+![02real](https://github.com/leezisheng/Domino-Series-Expansion-Board/blob/main/Li-ion-BMS-Board/image/02real.png)
+
+[锂电池充放电管理板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Li-ion-BMS-Board)采用小尺寸设计，既可直接连接XIAO系列主控板使用，也可作为独立模块单独应用。核心采用SY3501D芯片，具备锂电池充放电管理与5V升压功能，提供稳定的5V/1A输出。
+
+**板载LED指示灯清晰显示工作状态：**
+- 放电时绿色灯亮，停止放电时熄灭；
+- 充电时红灯闪烁，充满后红灯常亮，绿色灯熄灭。
+
+板子支持0.7A恒流充电，具备涓流、恒流、恒压三阶段智能充电及热调节功能，充电电压预设为4.2V，精度达±1%。为安全考虑，插入USB进行充电时将自动断开输出，避免同充同放，电池需加保护板。模块还集成了过流、短路、过压、过温等多重放电保护机制，保障系统稳定运行。
+
 ## 扩展板亚克力底板📟
 我们提供了扩展板的亚克力底板，包括大小两个版本：
 大版本可以使用在SeeedStudio XIAO多功能扩展板上，底板部分灵感来源于PCB板上的连线和过孔：
@@ -285,6 +301,20 @@ Uses MOSFETs for efficient switching with optocoupler isolation and LED status i
 ### High-Voltage AC Version  
 Features optocoupler isolation and LEDs (lit when relay is engaged). Supports up to **250V 8A AC** or **30V 8A DC**. PCB design references Seeed's Relay Module for IoT & home automation.  
 ![00image1](Relay-Expansion-Board/image/04MOS.png)  
+
+## Li-ion-BMS-Board🔌
+
+![00summary](https://github.com/leezisheng/Domino-Series-Expansion-Board/raw/main/Li-ion-BMS-Board/image/00summary.png)
+![01fake](https://github.com/leezisheng/Domino-Series-Expansion-Board/blob/main/Li-ion-BMS-Board/image/01fake.png)
+![02real](https://github.com/leezisheng/Domino-Series-Expansion-Board/blob/main/Li-ion-BMS-Board/image/02real.png)
+
+The compact lithium battery management board can be directly connected to XIAO series main control boards or used as a standalone module. Featuring the SY3501D chip, it integrates lithium battery charge-discharge management and 5V boost functions, delivering stable 5V/1A output.
+
+**Dual-color LED status indication:**
+- Green light on during discharging, off when idle
+- Red blinking during charging, solid red when fully charged (green light off)
+
+Supports 0.7A constant current charging with three-stage smart charging (trickle/CC/CV) and thermal regulation. Charging voltage preset to 4.2V (±1% accuracy). Safety features include automatic output disconnection during USB charging to prevent simultaneous charge-discharge (requires battery protection circuit). Integrated protections: over-current, short-circuit, over-voltage, and over-temperature.
 
 ## Acrylic Baseplate for Expansion Board 📟
 
