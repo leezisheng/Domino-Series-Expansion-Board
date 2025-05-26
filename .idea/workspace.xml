@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 修改了继电器扩展板部分错误&#10;&#10;修改了继电器扩展板部分错误" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化锂电池充放电管理板&#10;&#10;初始化锂电池充放电管理板" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +99,7 @@
       <workItem from="1747723001183" duration="785000" />
       <workItem from="1747726340375" duration="5226000" />
       <workItem from="1748098860554" duration="27000" />
+      <workItem from="1748276230319" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -340,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748098883963</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化锂电池充放电管理板&#10;&#10;初始化锂电池充放电管理板">
+      <option name="closed" value="true" />
+      <created>1748276272714</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1748276272714</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +372,7 @@
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化文档&#10;&#10;初始化文档" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 补充了继电器扩展板部分&#10;&#10;补充了继电器扩展板部分" />
     <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 修改了继电器扩展板部分错误&#10;&#10;修改了继电器扩展板部分错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 修改了继电器扩展板部分错误&#10;&#10;修改了继电器扩展板部分错误" />
+    <MESSAGE value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化锂电池充放电管理板&#10;&#10;初始化锂电池充放电管理板" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化锂电池充放电管理板&#10;&#10;初始化锂电池充放电管理板" />
   </component>
 </project>
