@@ -144,6 +144,17 @@
 
 板子支持0.7A恒流充电，具备涓流、恒流、恒压三阶段智能充电及热调节功能，充电电压预设为4.2V，精度达±1%。为安全考虑，插入USB进行充电时将自动断开输出，避免同充同放，电池需加保护板。模块还集成了过流、短路、过压、过温等多重放电保护机制，保障系统稳定运行。
 
+## Grove接口扩展板🧩
+![01summary](Grove-Interface-Expansion-Board/image/01summary.png)
+![03real](Grove-Interface-Expansion-Board/image/03real.png)
+[Grove接口扩展板](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Grove-Interface-Expansion-Board)采用小尺寸设计，既可直接连接XIAO系列主控板使用，也可作为独立模块单独应用。板载一个22μF钽电容与100nF小电容，对电源进行有效滤波，提升系统稳定性与抗干扰能力。
+扩展板提供丰富的Grove标准接口资源，包括：
+- 1个UART串口接口；
+- 2个I²C接口，便于连接多个传感器模块；
+- 1个模拟输入接口，可采集电压类信号；
+- 1个数字IO接口，用于控制开关、读取状态等功能。
+所有接口均遵守Grove标准规范，采用PH2.0-4P连接线即可轻松与各类外部Grove传感器模块对接，简化原型开发流程，加快项目落地，适用于教育、创客、智能家居等多种应用场景。
+
 ## 扩展板亚克力底板📟
 我们提供了扩展板的亚克力底板，包括大小两个版本：
 大版本可以使用在SeeedStudio XIAO多功能扩展板上，底板部分灵感来源于PCB板上的连线和过孔：
@@ -315,6 +326,20 @@ The compact lithium battery management board can be directly connected to XIAO s
 - Red blinking during charging, solid red when fully charged (green light off)
 
 Supports 0.7A constant current charging with three-stage smart charging (trickle/CC/CV) and thermal regulation. Charging voltage preset to 4.2V (±1% accuracy). Safety features include automatic output disconnection during USB charging to prevent simultaneous charge-discharge (requires battery protection circuit). Integrated protections: over-current, short-circuit, over-voltage, and over-temperature.
+
+## Grove Interface Expansion Board 🧩
+![01summary](Grove-Interface-Expansion-Board/image/01summary.png)
+![03real](Grove-Interface-Expansion-Board/image/03real.png)
+
+The [Grove Interface Expansion Board](https://github.com/leezisheng/Domino-Series-Expansion-Board/tree/main/Grove-Interface-Expansion-Board) features a compact design that can be directly connected to XIAO series main control boards or used as a standalone module. Equipped with a 22μF tantalum capacitor and a 100nF ceramic capacitor, it effectively filters the power supply to enhance system stability and anti-interference capability.
+
+The expansion board provides abundant Grove standard interface resources, including:
+- 1 UART serial interface
+- 2 I²C interfaces for connecting multiple sensor modules
+- 1 analog input interface for voltage signal acquisition
+- 1 digital I/O interface for switch control and status reading
+
+All interfaces comply with the Grove standard specification. Using PH2.0-4P connection cables, you can easily interface with various external Grove sensor modules, simplifying prototyping workflows and accelerating project deployment. Ideal for education, maker projects, smart home applications, and various other scenarios.
 
 ## Acrylic Baseplate for Expansion Board 📟
 

@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化Grove接口扩展板文档&#10;&#10;初始化Grove接口扩展板文档" />
+    <list default="true" id="1c39c278-b91c-4198-af2b-8cf17c351ad1" name="更改" comment="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化Grove接口扩展板文档&#10;&#10;初始化Grove接口扩展板文档">
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/Grove-Interface-Expansion-Board.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/image/00summary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/image/01summary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/image/03real.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/image/04connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/image/05connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grove-Interface-Expansion-Board/image/06multi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CopilotChatHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +123,7 @@
       <workItem from="1748280682664" duration="22000" />
       <workItem from="1748281070994" duration="219000" />
       <workItem from="1748691565158" duration="35000" />
+      <workItem from="1748694176340" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
