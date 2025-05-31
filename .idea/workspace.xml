@@ -102,6 +102,7 @@
       <workItem from="1748276230319" duration="47000" />
       <workItem from="1748277195507" duration="13000" />
       <workItem from="1748280682664" duration="22000" />
+      <workItem from="1748281070994" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="feat(初始化文件夹): 暂无&#10;&#10;暂无">
       <option name="closed" value="true" />
@@ -367,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748280697523</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="docs(G:\公司相关\相关产品\XIAO系列扩展板\Domino-Series-Expansion-Board\Relay-Expansion-Board): 初始化锂电池充放电管理板文档&#10;&#10;初始化锂电池充放电管理板文档">
+      <option name="closed" value="true" />
+      <created>1748281289727</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1748281289727</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
